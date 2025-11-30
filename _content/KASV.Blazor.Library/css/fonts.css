@@ -1,0 +1,11 @@
+@font-face
+{
+    font-family: "Doto";
+    src: url("../fonts/Doto/Doto-VariableFont_ROND,wght.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: "Google Sans Code";
+    src: url("../fonts/Google_Sans_Code/GoogleSansCode-VariableFont_wght.ttf") format("truetype");
+}

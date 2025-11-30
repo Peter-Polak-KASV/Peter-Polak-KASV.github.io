@@ -1,0 +1,15 @@
+:root /*Default theme - Dark*/
+{
+    --color-accent-light: #0080ff;
+    --color-accent-normal: #0080ff;
+    --color-accent-dark: #0080ff;
+
+    --color-background-normal: #272727;
+    --color-text-normal: white;
+}
+
+body:has(#app > .light-theme) /*Light theme*/
+{
+    --color-background-normal: white;
+    --color-text-normal: #272727;
+}

@@ -1,0 +1,21 @@
+body
+{
+    font-family: "Google Sans Code";
+    color: var(--color-text-normal);
+    background-color: var(--color-background-normal);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+    a:link, a:visited
+    {
+        color: var(--color-accent-normal);
+    }
+
+    a:hover
+    {
+        text-decoration: underline;
+    }

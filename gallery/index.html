@@ -5,8 +5,11 @@
     <base href="/"/>
     <base target="_blank"/>
 
-    <link href="_framework/dotnet.3n6bwircc6.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-X04hUrGg+Ipv4dKpNXjKH8QlM59Dn2Qhp74ZDvxDC9M="/>
-    <link rel="stylesheet" href="_content/KASV.Blazor.Library/css/colors.css"/>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+    <link href="_framework/dotnet.tn3uddmigx.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-Cc+c7fVluZ4w4ZM1qk9V6DPK4foHUvAMNun8kp2a5ZQ="/>
+    <link rel="stylesheet" href="_content/KASV.Blazor.Library/css/shared-theme.css"/>
+    <link rel="stylesheet" href="_content/KASV.Blazor.Library/css/dark-theme.css"/>
+    <!--<link rel="stylesheet" href="_content/KASV.Blazor.Library/css/colors.css" />-->
     <link rel="stylesheet" href="_content/KASV.Blazor.Library/css/fonts.css"/>
     <link rel="stylesheet" href="_content/KASV.Blazor.Library/css/style.css"/>
     <link rel="stylesheet" href="css/app.css"/>
@@ -16,20 +19,20 @@
     <script type="importmap">{
   "imports": {
     "./_framework/blazor.webassembly.js": "./_framework/blazor.webassembly.66stpp682q.js",
-    "./_framework/dotnet.js": "./_framework/dotnet.3n6bwircc6.js",
     "./_framework/dotnet.native.js": "./_framework/dotnet.native.o55fmtwhak.js",
-    "./_framework/dotnet.runtime.js": "./_framework/dotnet.runtime.o0qy896u8v.js"
+    "./_framework/dotnet.runtime.js": "./_framework/dotnet.runtime.o0qy896u8v.js",
+    "./_framework/dotnet.js": "./_framework/dotnet.tn3uddmigx.js"
   },
   "scopes": {},
   "integrity": {
     "./_framework/blazor.webassembly.66stpp682q.js": "sha256-3lCWrko3zwspV40aQhs2S/IMkRSarnHRKIdkHhuXIBA=",
     "./_framework/blazor.webassembly.js": "sha256-3lCWrko3zwspV40aQhs2S/IMkRSarnHRKIdkHhuXIBA=",
-    "./_framework/dotnet.3n6bwircc6.js": "sha256-X04hUrGg+Ipv4dKpNXjKH8QlM59Dn2Qhp74ZDvxDC9M=",
-    "./_framework/dotnet.js": "sha256-X04hUrGg+Ipv4dKpNXjKH8QlM59Dn2Qhp74ZDvxDC9M=",
+    "./_framework/dotnet.js": "sha256-Cc+c7fVluZ4w4ZM1qk9V6DPK4foHUvAMNun8kp2a5ZQ=",
     "./_framework/dotnet.native.js": "sha256-3HGh6UbuAyAod76HDtgLFJ8sjXQ1QDoYtTuxGi1jdL4=",
     "./_framework/dotnet.native.o55fmtwhak.js": "sha256-3HGh6UbuAyAod76HDtgLFJ8sjXQ1QDoYtTuxGi1jdL4=",
     "./_framework/dotnet.runtime.js": "sha256-yJvgPPUUvavYVmu9VD/fYtMcoEnLVaB0Cr7JAE29btw=",
-    "./_framework/dotnet.runtime.o0qy896u8v.js": "sha256-yJvgPPUUvavYVmu9VD/fYtMcoEnLVaB0Cr7JAE29btw="
+    "./_framework/dotnet.runtime.o0qy896u8v.js": "sha256-yJvgPPUUvavYVmu9VD/fYtMcoEnLVaB0Cr7JAE29btw=",
+    "./_framework/dotnet.tn3uddmigx.js": "sha256-Cc+c7fVluZ4w4ZM1qk9V6DPK4foHUvAMNun8kp2a5ZQ="
   }
 }</script>
 
@@ -39,7 +42,7 @@
     <meta property="og:type" content="" />
 
     <meta name="date" content="" />
-    <meta name="theme-color" content="Dark" />
+    <meta name="theme-color" content="#0080ff" />
 
     <meta name="description" content="" />
     <meta property="og:description" content="" />
@@ -66,7 +69,9 @@
     
 
 
-<div class="dark-theme"></div>
+
+
+<button>Dark</button>
         <blazor-focus-on-navigate selector="h1"></blazor-focus-on-navigate>
 
 </div>

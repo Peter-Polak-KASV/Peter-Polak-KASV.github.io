@@ -5,6 +5,14 @@ body
     background-color: var(--color-background-normal);
 }
 
+button
+{
+    color: white;
+    padding: 10px 20px;
+    background-color: var(--color-accent-normal);
+    border: none;
+}
+
 a
 {
     text-decoration: none;

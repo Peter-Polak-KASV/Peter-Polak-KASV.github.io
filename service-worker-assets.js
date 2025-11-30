@@ -1,6 +1,14 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
+      "hash": "sha256-5Tubp+SruKO4\/MnQgWbXqiACQYZ7ArBiew3Pl044cj8=",
+      "url": ".gitattributes"
+    },
+    {
+      "hash": "sha256-47DEQpj8HBSa+\/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "url": ".nojekyll"
+    },
+    {
       "hash": "sha256-UVy3L6kXaa89JN6tg+EbiLCuVLpkmxOoG6sAi7Bb9uc=",
       "url": "BlazorWasmPreRendering.Build.lfyg69o9wu.lib.module.js"
     },
@@ -405,5 +413,5 @@
       "url": "edupage\/index.html"
     }
   ],
-  "version": "pVYDWJpu"
+  "version": "XW2PmWQ8"
 };

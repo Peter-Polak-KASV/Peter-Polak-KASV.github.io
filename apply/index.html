@@ -6,7 +6,7 @@
     <base target="_blank"/>
 
     <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
-    <link href="_framework/dotnet.tn3uddmigx.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-Cc+c7fVluZ4w4ZM1qk9V6DPK4foHUvAMNun8kp2a5ZQ="/>
+    <link href="_framework/dotnet.5hyatmk2qc.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-9x2jVCXkApOszTfBJhsBM+PT9GCmDVVSBncY+0RID2E="/>
     <link rel="stylesheet" href="_content/KASV.Blazor.Library/css/shared-theme.css"/>
     <link rel="stylesheet" href="_content/KASV.Blazor.Library/css/dark-theme.css"/>
     <!--<link rel="stylesheet" href="_content/KASV.Blazor.Library/css/colors.css" />-->
@@ -19,20 +19,20 @@
     <script type="importmap">{
   "imports": {
     "./_framework/blazor.webassembly.js": "./_framework/blazor.webassembly.66stpp682q.js",
+    "./_framework/dotnet.js": "./_framework/dotnet.5hyatmk2qc.js",
     "./_framework/dotnet.native.js": "./_framework/dotnet.native.o55fmtwhak.js",
-    "./_framework/dotnet.runtime.js": "./_framework/dotnet.runtime.o0qy896u8v.js",
-    "./_framework/dotnet.js": "./_framework/dotnet.tn3uddmigx.js"
+    "./_framework/dotnet.runtime.js": "./_framework/dotnet.runtime.o0qy896u8v.js"
   },
   "scopes": {},
   "integrity": {
     "./_framework/blazor.webassembly.66stpp682q.js": "sha256-3lCWrko3zwspV40aQhs2S/IMkRSarnHRKIdkHhuXIBA=",
     "./_framework/blazor.webassembly.js": "sha256-3lCWrko3zwspV40aQhs2S/IMkRSarnHRKIdkHhuXIBA=",
-    "./_framework/dotnet.js": "sha256-Cc+c7fVluZ4w4ZM1qk9V6DPK4foHUvAMNun8kp2a5ZQ=",
+    "./_framework/dotnet.5hyatmk2qc.js": "sha256-9x2jVCXkApOszTfBJhsBM+PT9GCmDVVSBncY+0RID2E=",
+    "./_framework/dotnet.js": "sha256-9x2jVCXkApOszTfBJhsBM+PT9GCmDVVSBncY+0RID2E=",
     "./_framework/dotnet.native.js": "sha256-3HGh6UbuAyAod76HDtgLFJ8sjXQ1QDoYtTuxGi1jdL4=",
     "./_framework/dotnet.native.o55fmtwhak.js": "sha256-3HGh6UbuAyAod76HDtgLFJ8sjXQ1QDoYtTuxGi1jdL4=",
     "./_framework/dotnet.runtime.js": "sha256-yJvgPPUUvavYVmu9VD/fYtMcoEnLVaB0Cr7JAE29btw=",
-    "./_framework/dotnet.runtime.o0qy896u8v.js": "sha256-yJvgPPUUvavYVmu9VD/fYtMcoEnLVaB0Cr7JAE29btw=",
-    "./_framework/dotnet.tn3uddmigx.js": "sha256-Cc+c7fVluZ4w4ZM1qk9V6DPK4foHUvAMNun8kp2a5ZQ="
+    "./_framework/dotnet.runtime.o0qy896u8v.js": "sha256-yJvgPPUUvavYVmu9VD/fYtMcoEnLVaB0Cr7JAE29btw="
   }
 }</script>
 
@@ -70,7 +70,14 @@
 
 
 
-
+<form action="/apply"><label for="name">Name:</label>
+    <input id="name" name="name" type="text" />
+    <label for="surname">Surname:</label>
+    <input id="surname" name="surname" type="text" />
+    <label for="email">E-Mail:</label>
+    <input id="email" name="email" type="email" />
+    <label for="dateOfBirth">Date of birth:</label>
+    <input id="dateOfBirth" name="dateOfBirth" type="date" value="0001-01-01" /></form>
 <button>Dark</button>
         <blazor-focus-on-navigate selector="h1"></blazor-focus-on-navigate>
 

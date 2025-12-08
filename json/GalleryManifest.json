@@ -1,3 +1,6 @@
 [
-  "images/gallery/IMAGE_NAME.jpg"
+  {
+    "Src": "images/gallery/IMAGE_NAME.jpg",
+    "TitleKey": "resourceKey"
+  }
 ]

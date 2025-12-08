@@ -1,2 +1,12 @@
-@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.1khko72exv.bundle.scp.css';
+@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.sp217z1b5d.bundle.scp.css';
 
+/* /Pages/Gallery.razor.rz.scp.css */
+#gallery[b-kgodye5dwk]
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+/* /Pages/PrintAdmissionForm.razor.rz.scp.css */

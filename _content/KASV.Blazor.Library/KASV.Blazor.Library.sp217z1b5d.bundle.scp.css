@@ -1,0 +1,144 @@
+/* _content/KASV.Blazor.Library/Components/AdmissionFormDocument.razor.rz.scp.css */
+#form[b-34g9gbs104]
+{
+/*    position: relative;*/
+    display: block;
+    width: 21cm;
+/*    height: 29.7cm;*/
+    margin: 0 auto;
+}
+
+section:not(:last-of-type)[b-34g9gbs104]
+{
+    margin-bottom: 25px;
+}
+
+header[b-34g9gbs104], footer[b-34g9gbs104]
+{
+    text-align: center;
+}
+
+header[b-34g9gbs104]
+{
+    margin-bottom: 20px;
+}
+
+    header > h1[b-34g9gbs104]
+    {
+        text-transform: uppercase;
+    }
+
+h1[b-34g9gbs104], h2[b-34g9gbs104]
+{
+    margin: 0;
+}
+
+table[b-34g9gbs104]
+{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table[b-34g9gbs104], th[b-34g9gbs104], td[b-34g9gbs104]
+{
+    border: 1px solid;
+}
+
+th[b-34g9gbs104]
+{
+    max-width: 200px;
+}
+
+th[b-34g9gbs104], td[b-34g9gbs104]
+{
+    padding: 5px;
+}
+
+#student-section > table[b-34g9gbs104]
+{
+    
+}
+
+.section-footer[b-34g9gbs104]
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#datetime[b-34g9gbs104], #signature[b-34g9gbs104]
+{
+    border-bottom: 1px dotted;
+    height: 50px;
+    width: 250px;
+
+    & + div
+    {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+.underline[b-34g9gbs104]
+{
+    display: inline-block;
+    width: 100px;
+    border-bottom: 1px dotted;
+}
+
+#doctor-section > div[b-34g9gbs104], #principal-section > div[b-34g9gbs104]
+{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid;
+    padding: 20px;
+}
+
+#doctor-section > div[b-34g9gbs104]
+{
+    height: 180px;
+}
+
+#principal-section > div[b-34g9gbs104]
+{
+/*    height: 150px;*/
+}
+
+footer[b-34g9gbs104]
+{
+    /*position: absolute;
+    bottom: 0;
+    left: 15%;*/
+
+    margin-top: 20px;
+}
+
+button[b-34g9gbs104]
+{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 15px;
+    font-size: 2em;
+    border-radius: 100%;
+}
+/* _content/KASV.Blazor.Library/Components/GalleryTile.razor.rz.scp.css */
+/* _content/KASV.Blazor.Library/Components/Header.razor.rz.scp.css */
+h1[b-tnolfik0je]
+{
+    font-family: "Doto";
+}
+/* _content/KASV.Blazor.Library/Components/Logo.razor.rz.scp.css */
+#logo[b-07ulxgsgty]
+{
+/*    fill: black;*/
+}
+/* _content/KASV.Blazor.Library/Components/MaterialSymbol.razor.rz.scp.css */
+span[b-gla9kip7yt]
+{
+    font-size: 1em;
+    vertical-align: middle;
+    line-height: unset;
+}

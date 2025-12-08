@@ -1,0 +1,506 @@
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H_OdzEL3sVTgJtfbYxOLozCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxOLozCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H7OdzEL3sVTgJtfbYxOLozCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H0OezEL3sVTgJtfbYxOLozCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-HxOezEL3sVTgJtfbYxOLozCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H_OdzEL3sVTgJtfbYxOLozCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxOLozCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H7OdzEL3sVTgJtfbYxOLozCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H0OezEL3sVTgJtfbYxOLozCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-HxOezEL3sVTgJtfbYxOLozCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H_OdzEL3sVTgJtfbYxMLojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxMLojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H7OdzEL3sVTgJtfbYxMLojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H0OezEL3sVTgJtfbYxMLojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-HxOezEL3sVTgJtfbYxMLojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H_OdzEL3sVTgJtfbYxMLojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxMLojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H7OdzEL3sVTgJtfbYxMLojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H0OezEL3sVTgJtfbYxMLojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-HxOezEL3sVTgJtfbYxMLojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H_OdzEL3sVTgJtfbYxPVojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxPVojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H7OdzEL3sVTgJtfbYxPVojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H0OezEL3sVTgJtfbYxPVojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-HxOezEL3sVTgJtfbYxPVojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H_OdzEL3sVTgJtfbYxPVojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxPVojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H7OdzEL3sVTgJtfbYxPVojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H0OezEL3sVTgJtfbYxPVojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-HxOezEL3sVTgJtfbYxPVojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H_OdzEL3sVTgJtfbYxOLojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxOLojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H7OdzEL3sVTgJtfbYxOLojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H0OezEL3sVTgJtfbYxOLojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-HxOezEL3sVTgJtfbYxOLojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H_OdzEL3sVTgJtfbYxOLojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxOLojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H7OdzEL3sVTgJtfbYxOLojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H0OezEL3sVTgJtfbYxOLojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-HxOezEL3sVTgJtfbYxOLojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H_OdzEL3sVTgJtfbYxO5ojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxO5ojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H7OdzEL3sVTgJtfbYxO5ojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H0OezEL3sVTgJtfbYxO5ojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-HxOezEL3sVTgJtfbYxO5ojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H_OdzEL3sVTgJtfbYxO5ojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxO5ojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H7OdzEL3sVTgJtfbYxO5ojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H0OezEL3sVTgJtfbYxO5ojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-HxOezEL3sVTgJtfbYxO5ojCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H_OdzEL3sVTgJtfbYxNVpTCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNVpTCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H7OdzEL3sVTgJtfbYxNVpTCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H0OezEL3sVTgJtfbYxNVpTCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-HxOezEL3sVTgJtfbYxNVpTCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H_OdzEL3sVTgJtfbYxNVpTCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNVpTCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H7OdzEL3sVTgJtfbYxNVpTCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H0OezEL3sVTgJtfbYxNVpTCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-HxOezEL3sVTgJtfbYxNVpTCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H_OdzEL3sVTgJtfbYxNspTCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNspTCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H7OdzEL3sVTgJtfbYxNspTCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H0OezEL3sVTgJtfbYxNspTCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-HxOezEL3sVTgJtfbYxNspTCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H_OdzEL3sVTgJtfbYxNspTCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNspTCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H7OdzEL3sVTgJtfbYxNspTCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H0OezEL3sVTgJtfbYxNspTCL.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/materialsymbolssharp/v297/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReYU3rHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-HxOezEL3sVTgJtfbYxNspTCL.woff2) format('woff2');
+}
+
+.material-symbols-sharp {
+  font-family: 'Material Symbols Sharp';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}

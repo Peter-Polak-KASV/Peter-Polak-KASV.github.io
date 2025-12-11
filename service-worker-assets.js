@@ -13,12 +13,12 @@
       "url": "BlazorWasmPreRendering.Build.lfyg69o9wu.lib.module.js"
     },
     {
-      "hash": "sha256-0bFxFEms6WvcO013AVRUBxE4GD9EhxXSeWtEeY1HF0E=",
+      "hash": "sha256-acZI8bP7Bxwg+gzJ56eFMZaHBZx0kZSTa\/F2HEDlJiM=",
       "url": "KASV.Blazor.WebAssembly.styles.css"
     },
     {
-      "hash": "sha256-Gcn93b5+7ITW6oLdR6XBTfQlnClZcfM+VG1sEoP3QeQ=",
-      "url": "_content\/KASV.Blazor.Library\/KASV.Blazor.Library.zpcyulzdpm.bundle.scp.css"
+      "hash": "sha256-ICyMSBnsEkdCw+M4FXUfWGK0+Ghjn4CZAouNvMne6\/k=",
+      "url": "_content\/KASV.Blazor.Library\/KASV.Blazor.Library.wwogm1p5eh.bundle.scp.css"
     },
     {
       "hash": "sha256-CehSogKH3h56\/8Z39bIeQoZVS+mmCeEneWLI5PastRM=",
@@ -245,12 +245,12 @@
       "url": "_framework\/Blazored.LocalStorage.12n6dz54qr.wasm"
     },
     {
-      "hash": "sha256-ctLouY2x71qnNAkheaZy1i5MR2ODGg9TzFMzHqzyvII=",
-      "url": "_framework\/KASV.Blazor.Library.u0nglgmmig.wasm"
+      "hash": "sha256-5tNxlUAafPqBIqsJ3IcqGF4VYLxaBjCJmCjx8bSLx3A=",
+      "url": "_framework\/KASV.Blazor.Library.mdfxgw95ps.wasm"
     },
     {
-      "hash": "sha256-IyS5PQq2Jb2Km0qV641gKuwlgya3OaPkwwOFBoyuSiY=",
-      "url": "_framework\/KASV.Blazor.WebAssembly.1f89db9yu5.wasm"
+      "hash": "sha256-p\/V\/8LoYNym6iuz5UjrYcn+STjKpjHptB78wpZ1oci8=",
+      "url": "_framework\/KASV.Blazor.WebAssembly.hqurm8k4hz.wasm"
     },
     {
       "hash": "sha256-DF1IK\/Ya4bKRhsoQcITQ5pN+2Jop+WBBzc9zawQPrFs=",
@@ -433,16 +433,16 @@
       "url": "_framework\/blazor.webassembly.66stpp682q.js"
     },
     {
-      "hash": "sha256-tlSdcLul\/+6lXGisBOUEeb20I8dsIyj4tqXmih8F8S4=",
-      "url": "_framework\/dotnet.akr7ghjo65.js"
-    },
-    {
       "hash": "sha256-JwEgU90H4Gi0\/AFbzJNbjK7hYFHXTwRk6iFuhRZJYyw=",
       "url": "_framework\/dotnet.native.dz6eoz60go.js"
     },
     {
       "hash": "sha256-k21Jw7DG2RuaVG1PqBwrjV1mhBcMWHi4wpNxqJXuPYA=",
       "url": "_framework\/dotnet.native.pxz674asmu.wasm"
+    },
+    {
+      "hash": "sha256-y+XAx27LaTcp2Uks6UWliQPvXqQoZET88P\/kAwOUn8Y=",
+      "url": "_framework\/dotnet.ndmexrfib3.js"
     },
     {
       "hash": "sha256-jCsbbdXoVd1zzGc0fQT2sz4mKuv0ANdurPVGo5Sc2jg=",
@@ -453,12 +453,12 @@
       "url": "_framework\/icudt.oh1zvcfom8.dat"
     },
     {
-      "hash": "sha256-fY74Hm3Zd6xpGdHbcO4CB9jSpXlCycl6ATaqBucR8+8=",
-      "url": "_framework\/sk\/KASV.Blazor.Library.resources.p18rhnk2j0.wasm"
+      "hash": "sha256-gKyTxRgtLPIxTm1FPsSRX839MVU4XYrzqT1UY5O2kHU=",
+      "url": "_framework\/sk\/KASV.Blazor.Library.resources.s9u97dv4ry.wasm"
     },
     {
-      "hash": "sha256-r34MadomlgrynK7qRfPoYqyoQ2NrAMHK3rfwBH\/6IU4=",
-      "url": "_framework\/sk\/KASV.Blazor.WebAssembly.resources.h0gdjbf86t.wasm"
+      "hash": "sha256-pfr\/7QPBNP7ah2f3IfCIzVA0g4Nx7ROpbSkOS4xigzs=",
+      "url": "_framework\/sk\/KASV.Blazor.WebAssembly.resources.3qzehen5vr.wasm"
     },
     {
       "hash": "sha256-B29pkYgjHPnSGzbvOt6e\/rGA1pNBUEkTQJmKBjmWZAE=",
@@ -469,7 +469,7 @@
       "url": "favicon.svg"
     },
     {
-      "hash": "sha256-W1kx0TnMlP83eYXtVsFydhet9izcChb8B0dd7LQriPU=",
+      "hash": "sha256-AEHLUtgPEPRbxkx7WeeXFmc9Y6LkHIMBYjvsPochSas=",
       "url": "index.html"
     },
     {
@@ -485,25 +485,25 @@
       "url": "xml\/sitemap.xml"
     },
     {
-      "hash": "sha256-JeobFVrC3RE4T8S4Wj5TnSxnfvfSIETJSUKZfZsfPv0=",
+      "hash": "sha256-NvIir59waAPKVwauQGUZpMUfUW8hBo68EweYdYqLysk=",
       "url": "studies\/index.html"
     },
     {
-      "hash": "sha256-X1SPFcvzxlQfByPRo3lpClfsn3FBE+jqjnhHhVGg1ss=",
+      "hash": "sha256-ZYpNnj5Z9EtuDYz6SoyGQiMzHS6TTKx0R9SH7T5NzlE=",
       "url": "partners\/index.html"
     },
     {
-      "hash": "sha256-4pK\/I1foakSXtNkKBMIy58dFI\/Z7Xik1LpsTtgBQIoQ=",
+      "hash": "sha256-kDUbsZH1k5+xmedQlr44ILpVOfj4Dq2JppB7J8WP\/RE=",
       "url": "admission-form\/index.html"
     },
     {
-      "hash": "sha256-D8R5WnYy9Vzn\/tSorpy5ueMTLi8kc7jz5Bpi5HPuz7M=",
+      "hash": "sha256-OnUk7ChIx35D\/YdmrcSCmyhVu9MGEUXieH8CyXsRUG8=",
       "url": "gallery\/index.html"
     },
     {
-      "hash": "sha256-X1SPFcvzxlQfByPRo3lpClfsn3FBE+jqjnhHhVGg1ss=",
+      "hash": "sha256-ZYpNnj5Z9EtuDYz6SoyGQiMzHS6TTKx0R9SH7T5NzlE=",
       "url": "contact\/index.html"
     }
   ],
-  "version": "BqG1RQy8"
+  "version": "DLLRXduR"
 };

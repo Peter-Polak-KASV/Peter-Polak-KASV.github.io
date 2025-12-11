@@ -1,10 +1,11 @@
-@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.zpcyulzdpm.bundle.scp.css';
+@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.wwogm1p5eh.bundle.scp.css';
 
 /* /Layout/MainLayout.razor.rz.scp.css */
 header[b-eqo69h9tk4]
 {
     display: flex;
     justify-content: space-between;
+    column-gap: 10px;
     align-items: center;
 }
 
@@ -12,14 +13,19 @@ nav > ul[b-eqo69h9tk4]
 {
     list-style: none;
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     column-gap: 10px;
+    row-gap: 10px;
     margin: 0;
     padding: 0;
 
 
     li > a
     {
+        display: inline-block;
         font-size: 0.9em;
+        white-space: nowrap;
         padding: 1em 2em;
         background: #2a2f33;
         border-radius: 8px;
@@ -38,7 +44,10 @@ nav > ul[b-eqo69h9tk4]
 {
     display: flex;
     align-items: center;
+    justify-content: center;
     column-gap: 10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
 }
 /* /Pages/Gallery.razor.rz.scp.css */
 #gallery[b-kgodye5dwk]
@@ -55,6 +64,7 @@ section[b-i4l905nfm0]
     font-family: "Jersey 10", sans-serif;
     font-size: 3em;
     letter-spacing: 4px;
+    text-align: center;
 
     display: block;
     margin: 25% auto;

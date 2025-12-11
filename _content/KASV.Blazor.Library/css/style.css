@@ -1,6 +1,6 @@
 /*Global style*/
 
-body
+html
 {
     font-family: "Google Sans Code";
     color: var(--color-text-normal);
@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6/*, label*/
 button, input[type=button], input[type=submit]
 {
     color: white;
-    padding: 10px 20px;
+    padding: 1em 2em;
     background-color: var(--color-accent-normal);
     border: none;
     transition: all ease-in 200ms;
@@ -54,6 +54,12 @@ a
     {
         text-decoration: underline;
     }
+
+hr
+{
+    color: var(--color-accent-normal);
+    margin: 20px 0;
+}
 
 /*For printing admission form*/
 @page

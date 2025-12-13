@@ -1,6 +1,30 @@
 [
   {
-    "Src": "images/gallery/IMAGE_NAME.jpg",
-    "TitleKey": "resourceKey"
+    "Src": "images/gallery/1.jpg",
+    "TitleKey": "Image1"
+  },
+  {
+    "Src": "images/gallery/2.jpg",
+    "TitleKey": "Image2"
+  },
+  {
+    "Src": "images/gallery/3.jpg",
+    "TitleKey": "Image3"
+  },
+  {
+    "Src": "images/gallery/4.jpg",
+    "TitleKey": "Image4"
+  },
+  {
+    "Src": "images/gallery/5.jpg",
+    "TitleKey": "Image5"
+  },
+  {
+    "Src": "images/gallery/6.jpg",
+    "TitleKey": "Image6"
+  },
+  {
+    "Src": "images/gallery/7.jpg",
+    "TitleKey": "Image7"
   }
 ]

@@ -1,4 +1,4 @@
-@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.wwogm1p5eh.bundle.scp.css';
+@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.db982cvv3k.bundle.scp.css';
 
 /* /Layout/MainLayout.razor.rz.scp.css */
 header[b-eqo69h9tk4]
@@ -27,14 +27,19 @@ nav > ul[b-eqo69h9tk4]
         font-size: 0.9em;
         white-space: nowrap;
         padding: 1em 2em;
-        background: #2a2f33;
+        background: var(--nav-button-color);
         border-radius: 8px;
         transition: all 300ms ease-in-out;
 
         &:hover
         {
-            background: #3c4347;
+            background: var(--button-hover-color);
             text-decoration: none;
+        }
+
+        [b-eqo69h9tk4] &.active
+        {
+            background: var(--button-hover-color);
         }
     }
 }
@@ -55,8 +60,16 @@ nav > ul[b-eqo69h9tk4]
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 20px;
-    row-gap: 20px;
+    justify-content: space-around;
+    row-gap: 2vh;
+    column-gap: 1vw;
+    margin: 2vw;
+}
+
+#overlay-image[b-kgodye5dwk]
+{
+    max-height: 80vh;
+    max-width: 90vw;
 }
 /* /Pages/Index.razor.rz.scp.css */
 section[b-i4l905nfm0]
@@ -69,5 +82,62 @@ section[b-i4l905nfm0]
     display: block;
     margin: 25% auto;
     width: fit-content;
+}
+/* /Pages/Partners.razor.rz.scp.css */
+section[b-93w17cbj8w]
+{
+    background-color: transparent;
+}
+
+    section h1[b-93w17cbj8w]
+    {
+        display: block;
+        margin: 80px 0 20px 0;
+        text-align: center;
+        font-size: 60px;
+        color: var(--color-text-normal);
+        transition: color 0.3s;
+    }
+
+
+.firmy-list[b-93w17cbj8w]
+{
+    margin: 20px 15px 20px 0;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 0;
+}
+
+    .firmy-list li[b-93w17cbj8w]
+    {
+        color: var(--color-text-normal);
+        text-decoration: none;
+        font-size: 40px;
+        border-radius: 15px;
+        padding: 10px 15px;
+        background-color: var(--nav-button-color);
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        .firmy-list li:hover[b-93w17cbj8w]
+        {
+            background-color: var(--button-hover-color);
+        }
+
+.firma-content[b-93w17cbj8w]
+{
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 18px;
+    background-color: var(--nav-button-color);
+    border-radius: 12px;
+    display: none;
+    color: var(--color-text-normal);
+    font-size: 22px;
+    line-height: 1.5;
+    transition: background-color 0.3s, color 0.3s;
 }
 /* /Pages/PrintAdmissionForm.razor.rz.scp.css */

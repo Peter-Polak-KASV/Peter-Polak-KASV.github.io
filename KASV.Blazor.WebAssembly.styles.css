@@ -1,4 +1,4 @@
-@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.db982cvv3k.bundle.scp.css';
+@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.bgg2mgjksk.bundle.scp.css';
 
 /* /Layout/MainLayout.razor.rz.scp.css */
 header[b-eqo69h9tk4]
@@ -68,8 +68,16 @@ nav > ul[b-eqo69h9tk4]
 
 #overlay-image[b-kgodye5dwk]
 {
+    display: block;
+    margin: 0 auto;
     max-height: 80vh;
     max-width: 90vw;
+}
+
+#overlay-image-description[b-kgodye5dwk]
+{
+    text-align: center;
+    margin-top: 10px;
 }
 /* /Pages/Index.razor.rz.scp.css */
 section[b-i4l905nfm0]

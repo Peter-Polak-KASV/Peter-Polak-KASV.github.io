@@ -6,7 +6,7 @@
     <base target="_blank"/>
 
     <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
-    <link href="_framework/dotnet.kbluph6awq.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-cERM1LBB5u8MKmbnlS3pri24uB3sFT0RcCnRaiGud0M="/>
+    <link href="_framework/dotnet.52uxzg2zs9.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-bTnkYWnnK5xl7JLzMg2Fzsx8HAGnAFta+ddPDTKTkEU="/>
     <link rel="stylesheet" href="_content/KASV.Blazor.Library/css/shared-theme.css"/>
     <link rel="stylesheet" href="_content/KASV.Blazor.Library/css/dark-theme.css"/>
     <link rel="stylesheet" href="_content/KASV.Blazor.Library/css/Material Symbols Sharp.css"/>
@@ -19,7 +19,7 @@
     <script type="importmap">{
   "imports": {
     "./_framework/blazor.webassembly.js": "./_framework/blazor.webassembly.66stpp682q.js",
-    "./_framework/dotnet.js": "./_framework/dotnet.kbluph6awq.js",
+    "./_framework/dotnet.js": "./_framework/dotnet.52uxzg2zs9.js",
     "./_framework/dotnet.native.js": "./_framework/dotnet.native.dz6eoz60go.js",
     "./_framework/dotnet.runtime.js": "./_framework/dotnet.runtime.0j6ezsi0n0.js"
   },
@@ -27,8 +27,8 @@
   "integrity": {
     "./_framework/blazor.webassembly.66stpp682q.js": "sha256-3lCWrko3zwspV40aQhs2S/IMkRSarnHRKIdkHhuXIBA=",
     "./_framework/blazor.webassembly.js": "sha256-3lCWrko3zwspV40aQhs2S/IMkRSarnHRKIdkHhuXIBA=",
-    "./_framework/dotnet.js": "sha256-cERM1LBB5u8MKmbnlS3pri24uB3sFT0RcCnRaiGud0M=",
-    "./_framework/dotnet.kbluph6awq.js": "sha256-cERM1LBB5u8MKmbnlS3pri24uB3sFT0RcCnRaiGud0M=",
+    "./_framework/dotnet.52uxzg2zs9.js": "sha256-bTnkYWnnK5xl7JLzMg2Fzsx8HAGnAFta+ddPDTKTkEU=",
+    "./_framework/dotnet.js": "sha256-bTnkYWnnK5xl7JLzMg2Fzsx8HAGnAFta+ddPDTKTkEU=",
     "./_framework/dotnet.native.dz6eoz60go.js": "sha256-JwEgU90H4Gi0/AFbzJNbjK7hYFHXTwRk6iFuhRZJYyw=",
     "./_framework/dotnet.native.js": "sha256-JwEgU90H4Gi0/AFbzJNbjK7hYFHXTwRk6iFuhRZJYyw=",
     "./_framework/dotnet.runtime.0j6ezsi0n0.js": "sha256-jCsbbdXoVd1zzGc0fQT2sz4mKuv0ANdurPVGo5Sc2jg=",
@@ -58,11 +58,16 @@
 
 <body>
     <div id="app">
-        <svg class="loading-progress">
-            <circle r="40%" cx="50%" cy="50%"></circle>
-            <circle r="40%" cx="50%" cy="50%"></circle>
-        </svg>
-        <div class="loading-progress-text"></div>
+        <div id="loading-container">
+            <header id="loading-header">
+                <img id="loading-logo" src="_content/KASV.Blazor.Library/images/logo.svg"/>
+                <h1 id="loading-heading">KASV</h1>
+            </header>
+            <main id="loading-progress">
+                <div id="loading-bar"></div>
+                <div id="loading-text"></div>
+            </main>
+        </div>
     
 <!-- %%-PRERENDERING-BEGIN-%% -->
 <div style="opacity: 0; position: fixed; z-index: -1; top: 0; left: 0; bottom: 0; right: 0;">
@@ -70,15 +75,9 @@
 
 
 
-
-<header b-eqo69h9tk4><a href="/" b-eqo69h9tk4><svg width="2em" height="2em" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" b-07ulxgsgty><path id="logo" fill="var(--color-text-normal)" d="M28.5563 9.39629C29.5763 10.4363 29.5663 12.0963 28.5363 13.1263C27.4963 14.1463 25.8363 14.1363 24.8063 13.1063C23.7763 12.0763 23.7963 10.4063 24.8263 9.37629C25.8563 8.34629 27.5363 8.35629 28.5563 9.39629ZM20.0763 14.0563C19.2963 14.8263 19.0963 15.9563 19.4863 16.9163L16.9363 19.4363C15.9863 19.0363 14.8463 19.2263 14.0663 19.9963C13.0263 21.0163 13.0163 22.6863 14.0463 23.7263C15.0663 24.7663 16.7363 24.7763 17.7763 23.7463C18.5563 22.9763 18.7563 21.8463 18.3663 20.8863L20.9163 18.3663C21.8663 18.7663 23.0063 18.5763 23.7863 17.8063C24.8263 16.7863 24.8363 15.1163 23.8063 14.0763C22.7863 13.0463 21.1163 13.0363 20.0763 14.0563ZM21.8363 21.5963C20.7963 22.6163 20.7863 24.2863 21.8163 25.3263C22.8363 26.3663 24.5063 26.3763 25.5463 25.3463C26.5863 24.3263 26.5963 22.6563 25.5663 21.6163C24.5363 20.5863 22.8763 20.5663 21.8363 21.5963ZM7.47629 7.33629C8.51629 6.31629 8.52629 4.64629 7.49629 3.60629C6.47629 2.56629 4.80629 2.55629 3.76629 3.58629C2.72629 4.60629 2.71629 6.27629 3.74629 7.31629C4.77629 8.35629 6.43629 8.35629 7.47629 7.33629ZM9.31629 24.6763C8.27629 25.6963 8.26629 27.3663 9.29629 28.4063C10.3263 29.4463 11.9863 29.4563 13.0263 28.4263C14.0663 27.4063 14.0763 25.7363 13.0463 24.6963C12.0163 23.6663 10.3463 23.6563 9.31629 24.6763ZM20.0163 4.51629C21.0563 3.49629 21.0663 1.82629 20.0363 0.786291C19.0163 -0.253709 17.3463 -0.263709 16.3063 0.766291C15.2663 1.78629 15.2563 3.45629 16.2863 4.49629C17.3163 5.53629 18.9763 5.54629 20.0163 4.51629ZM9.24629 15.1463C9.98629 14.4163 10.1963 13.3663 9.89629 12.4463L12.5563 9.82629C13.4763 10.1363 14.5263 9.93629 15.2563 9.20629C16.2963 8.18629 16.3063 6.51629 15.2763 5.47629C14.2463 4.43629 12.5863 4.42629 11.5463 5.45629C10.7263 6.26629 10.5463 7.48629 11.0163 8.46629L8.54629 10.9063C7.56629 10.4263 6.34629 10.5863 5.52629 11.3963C4.48629 12.4163 4.47629 14.0863 5.50629 15.1263C6.53629 16.1663 8.21629 16.1663 9.24629 15.1463ZM4.49629 19.8363C5.53629 18.8163 5.54629 17.1463 4.51629 16.1063C3.48629 15.0663 1.82629 15.0563 0.78629 16.0863C-0.253709 17.1063 -0.263709 18.7763 0.766291 19.8163C1.79629 20.8563 3.45629 20.8563 4.49629 19.8363ZM6.83629 22.1763C7.85629 23.2163 9.52629 23.2263 10.5663 22.1963C11.3463 21.4263 11.5463 20.2963 11.1563 19.3363L13.5663 16.9663C14.5163 17.3663 15.6563 17.1763 16.4363 16.4063C17.2163 15.6363 17.4163 14.5063 17.0263 13.5463L19.5763 11.0263C20.5263 11.4263 21.6663 11.2363 22.4463 10.4663C23.4863 9.44629 23.4963 7.77629 22.4663 6.73629C21.4463 5.69629 19.7763 5.68629 18.7363 6.71629C17.9563 7.48629 17.7563 8.61629 18.1463 9.57629L15.5963 12.0963C14.6463 11.6963 13.5063 11.8863 12.7263 12.6563C11.9463 13.4263 11.7463 14.5563 12.1363 15.5163L9.72629 17.8863C8.77629 17.4863 7.63629 17.6763 6.85629 18.4463C5.82629 19.4663 5.81629 21.1363 6.83629 22.1763Z" b-07ulxgsgty></path></svg></a>
-    <nav b-eqo69h9tk4><ul b-eqo69h9tk4><li b-eqo69h9tk4><a href="/studies" title="Studies">Studies</a></li>
-            <li b-eqo69h9tk4><a href="/partners" title="Partners">Partners</a></li>
-            <li b-eqo69h9tk4><a href="/admission-form" title="Admission Form">Admission Form</a></li>
-            <li b-eqo69h9tk4><a href="/gallery" title="Gallery">Gallery</a></li>
-            <li b-eqo69h9tk4><a href="/contact" title="Contact" class="active" aria-current="page">Contact</a></li>
-            <li b-eqo69h9tk4><a href="https://ssoske.edupage.org/" title="EduPage">EduPage</a></li></ul></nav>
-    <div id="settings" b-eqo69h9tk4><div b-ph2p29qqzq><label for="theme-select" b-ph2p29qqzq><span class="material-symbols-sharp" style="   " b-gla9kip7yt>translate</span></label>
+<header b-tnolfik0je><a href="/" b-tnolfik0je><svg width="3em" height="3em" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" b-07ulxgsgty><path id="logo" fill="var(--color-text-normal)" d="M28.5563 9.39629C29.5763 10.4363 29.5663 12.0963 28.5363 13.1263C27.4963 14.1463 25.8363 14.1363 24.8063 13.1063C23.7763 12.0763 23.7963 10.4063 24.8263 9.37629C25.8563 8.34629 27.5363 8.35629 28.5563 9.39629ZM20.0763 14.0563C19.2963 14.8263 19.0963 15.9563 19.4863 16.9163L16.9363 19.4363C15.9863 19.0363 14.8463 19.2263 14.0663 19.9963C13.0263 21.0163 13.0163 22.6863 14.0463 23.7263C15.0663 24.7663 16.7363 24.7763 17.7763 23.7463C18.5563 22.9763 18.7563 21.8463 18.3663 20.8863L20.9163 18.3663C21.8663 18.7663 23.0063 18.5763 23.7863 17.8063C24.8263 16.7863 24.8363 15.1163 23.8063 14.0763C22.7863 13.0463 21.1163 13.0363 20.0763 14.0563ZM21.8363 21.5963C20.7963 22.6163 20.7863 24.2863 21.8163 25.3263C22.8363 26.3663 24.5063 26.3763 25.5463 25.3463C26.5863 24.3263 26.5963 22.6563 25.5663 21.6163C24.5363 20.5863 22.8763 20.5663 21.8363 21.5963ZM7.47629 7.33629C8.51629 6.31629 8.52629 4.64629 7.49629 3.60629C6.47629 2.56629 4.80629 2.55629 3.76629 3.58629C2.72629 4.60629 2.71629 6.27629 3.74629 7.31629C4.77629 8.35629 6.43629 8.35629 7.47629 7.33629ZM9.31629 24.6763C8.27629 25.6963 8.26629 27.3663 9.29629 28.4063C10.3263 29.4463 11.9863 29.4563 13.0263 28.4263C14.0663 27.4063 14.0763 25.7363 13.0463 24.6963C12.0163 23.6663 10.3463 23.6563 9.31629 24.6763ZM20.0163 4.51629C21.0563 3.49629 21.0663 1.82629 20.0363 0.786291C19.0163 -0.253709 17.3463 -0.263709 16.3063 0.766291C15.2663 1.78629 15.2563 3.45629 16.2863 4.49629C17.3163 5.53629 18.9763 5.54629 20.0163 4.51629ZM9.24629 15.1463C9.98629 14.4163 10.1963 13.3663 9.89629 12.4463L12.5563 9.82629C13.4763 10.1363 14.5263 9.93629 15.2563 9.20629C16.2963 8.18629 16.3063 6.51629 15.2763 5.47629C14.2463 4.43629 12.5863 4.42629 11.5463 5.45629C10.7263 6.26629 10.5463 7.48629 11.0163 8.46629L8.54629 10.9063C7.56629 10.4263 6.34629 10.5863 5.52629 11.3963C4.48629 12.4163 4.47629 14.0863 5.50629 15.1263C6.53629 16.1663 8.21629 16.1663 9.24629 15.1463ZM4.49629 19.8363C5.53629 18.8163 5.54629 17.1463 4.51629 16.1063C3.48629 15.0663 1.82629 15.0563 0.78629 16.0863C-0.253709 17.1063 -0.263709 18.7763 0.766291 19.8163C1.79629 20.8563 3.45629 20.8563 4.49629 19.8363ZM6.83629 22.1763C7.85629 23.2163 9.52629 23.2263 10.5663 22.1963C11.3463 21.4263 11.5463 20.2963 11.1563 19.3363L13.5663 16.9663C14.5163 17.3663 15.6563 17.1763 16.4363 16.4063C17.2163 15.6363 17.4163 14.5063 17.0263 13.5463L19.5763 11.0263C20.5263 11.4263 21.6663 11.2363 22.4463 10.4663C23.4863 9.44629 23.4963 7.77629 22.4663 6.73629C21.4463 5.69629 19.7763 5.68629 18.7363 6.71629C17.9563 7.48629 17.7563 8.61629 18.1463 9.57629L15.5963 12.0963C14.6463 11.6963 13.5063 11.8863 12.7263 12.6563C11.9463 13.4263 11.7463 14.5563 12.1363 15.5163L9.72629 17.8863C8.77629 17.4863 7.63629 17.6763 6.85629 18.4463C5.82629 19.4663 5.81629 21.1363 6.83629 22.1763Z" b-07ulxgsgty></path></svg></a>
+    <nav b-tnolfik0je><ul b-tnolfik0je><li b-tnolfik0je><a href="/studies" title="Studies">Studies</a></li><li b-tnolfik0je><a href="/partners" title="Partners">Partners</a></li><li b-tnolfik0je><a href="/admission-form" title="Admission">Admission</a></li><li b-tnolfik0je><a href="/gallery" title="Gallery">Gallery</a></li><li b-tnolfik0je><a href="/contact" title="Contact" class="active" aria-current="page">Contact</a></li><li b-tnolfik0je><a href="https://ssoske.edupage.org/" title="EduPage">EduPage</a></li></ul></nav>
+    <div id="settings" b-tnolfik0je><div b-ph2p29qqzq><label for="theme-select" b-ph2p29qqzq><span class="material-symbols-sharp" style="   " b-gla9kip7yt>translate</span></label>
     <select id="theme-select" value="en" b-ph2p29qqzq><option value="en" b-ph2p29qqzq selected>en</option><option value="sk" b-ph2p29qqzq>sk</option></select></div>
         <button b-ki9i8zwf9f><span class="material-symbols-sharp" style="   " b-gla9kip7yt>light_mode</span></button></div></header>
 

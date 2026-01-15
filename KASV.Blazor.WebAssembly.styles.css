@@ -1,4 +1,4 @@
-@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.namwha1poy.bundle.scp.css';
+@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.51g9yg4a1x.bundle.scp.css';
 
 /* /Layout/MainLayout.razor.rz.scp.css */
 header[b-eqo69h9tk4]
@@ -131,20 +131,31 @@ h2[b-wcrlbuxnp9]
     margin: 2vw;
 }
 
-/*#overlay-carousel *
+#overlay-carousel[b-kgodye5dwk]
 {
-    display: inline-block;
-    vertical-align: middle;
-}*/
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+#overlay-footer[b-kgodye5dwk]
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 
 .overlay-carousel-button[b-kgodye5dwk]
 {
-    position: fixed;
+    /*position: fixed;
     top: 50%;
-    left: 5vw;
+    left: 5vw;*/
     color: var(--color-accent-normal);
     background-color: transparent;
-    transform: translateY(-50%);
+    padding: 0;
+    margin: 2vw;
+
+    /*transform: translateY(-50%);*/
 }
 
 #overlay-image[b-kgodye5dwk]
@@ -152,7 +163,7 @@ h2[b-wcrlbuxnp9]
     display: block;
     margin: 0 auto;
     max-height: 80vh;
-    max-width: 80vw;
+    max-width: 90vw;
 }
 
 #overlay-image-description[b-kgodye5dwk]

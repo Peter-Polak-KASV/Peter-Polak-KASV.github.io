@@ -1,4 +1,4 @@
-@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.bgg2mgjksk.bundle.scp.css';
+@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.namwha1poy.bundle.scp.css';
 
 /* /Layout/MainLayout.razor.rz.scp.css */
 header[b-eqo69h9tk4]
@@ -54,6 +54,71 @@ nav > ul[b-eqo69h9tk4]
     row-gap: 10px;
     flex-wrap: wrap;
 }
+/* /Pages/Contact.razor.rz.scp.css */
+.contact[b-wcrlbuxnp9]
+{
+    position: relative;
+    padding-top: 40px;
+}
+
+h1[b-wcrlbuxnp9]
+{
+    font-size: 70px;
+    padding-left: 4px;
+    position: relative;
+    display: inline-block;
+}
+
+    h1[b-wcrlbuxnp9]::after
+    {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -7px;
+        height: 2px;
+        width: 400%;
+        background: #007bff;
+    }
+
+.loc[b-wcrlbuxnp9]
+{
+    position: absolute;
+    top: 200px;
+    right: 430px;
+    background: #007bff;
+    padding: 8px 14px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a[b-wcrlbuxnp9]
+{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+    a:hover[b-wcrlbuxnp9]
+    {
+        text-decoration: underline solid #007bff;
+    }
+
+h2[b-wcrlbuxnp9]
+{
+    margin-top: 18px; /* zdvihne obsah k ?iare */
+}
+
+.map[b-wcrlbuxnp9]
+{
+    position: absolute;
+    top: 320px;
+    right: 250px;
+    width: 600px;
+    height: 350px;
+    border: 2px solid #007bff;
+    border-radius: 6px;
+}
 /* /Pages/Gallery.razor.rz.scp.css */
 #gallery[b-kgodye5dwk]
 {
@@ -66,12 +131,28 @@ nav > ul[b-eqo69h9tk4]
     margin: 2vw;
 }
 
+/*#overlay-carousel *
+{
+    display: inline-block;
+    vertical-align: middle;
+}*/
+
+.overlay-carousel-button[b-kgodye5dwk]
+{
+    position: fixed;
+    top: 50%;
+    left: 5vw;
+    color: var(--color-accent-normal);
+    background-color: transparent;
+    transform: translateY(-50%);
+}
+
 #overlay-image[b-kgodye5dwk]
 {
     display: block;
     margin: 0 auto;
     max-height: 80vh;
-    max-width: 90vw;
+    max-width: 80vw;
 }
 
 #overlay-image-description[b-kgodye5dwk]
@@ -148,4 +229,57 @@ section[b-93w17cbj8w]
     line-height: 1.5;
     transition: background-color 0.3s, color 0.3s;
 }
+
+ul li .telekomLogo[b-93w17cbj8w]
+{
+    display: flex;
+    width: 100px;
+    margin: 0;
+}
+
+ul li .siemensLogo[b-93w17cbj8w]
+{
+    display: flex;
+    width: 300px;
+    margin: 0;
+}
+
+ul li .vismaLogo[b-93w17cbj8w]
+{
+    display: flex;
+    width: 300px;
+    margin: 0;
+}
+
+ul li .itValleyLogo[b-93w17cbj8w]
+{
+    display: flex;
+    width: 300px;
+    margin: 0;
+}
 /* /Pages/PrintAdmissionForm.razor.rz.scp.css */
+/* /Pages/Studies.razor.rz.scp.css */
+section[b-iqlkguo2dr]
+{
+    display: flex;
+    height: 100%;
+}
+
+    section h1[b-iqlkguo2dr]
+    {
+        display: block;
+        margin: 50px 0 0 0;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 60px;
+    }
+
+    section .ClassInfo[b-iqlkguo2dr]
+    {
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+        font-size: 20px;
+        padding: 0 200px 0 200px;
+    }

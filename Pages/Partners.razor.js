@@ -1,5 +1,5 @@
 //Javascript zmenu obsahu po kliknuti na firmu
-const content = {
+var content = content || {
     dt: "DataTel – popis firmy...",
     sh: "Siemens Healthineers – popis firmy...",
     vt: " Visma Technology – popis firmy...",

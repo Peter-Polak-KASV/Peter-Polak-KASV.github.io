@@ -87,11 +87,12 @@ hr
         background: white !important;
     }
 
-    *
-    {
-        color: black !important;
-        font-family: sans-serif !important;
-    }
+        body *
+        {
+/*            display: none !important;*/
+            color: black !important;
+            font-family: sans-serif !important;
+        }
 
     .no-print, .no-print *
     {

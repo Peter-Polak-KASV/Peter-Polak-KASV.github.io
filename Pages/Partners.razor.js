@@ -1,17 +1,17 @@
-//Javascript zmenu obsahu po kliknuti na firmu
-var content = content || {
-    dt: "DataTel – popis firmy...",
-    sh: "Siemens Healthineers – popis firmy...",
-    vt: " Visma Technology – popis firmy...",
-    it: "IT Valley – popis firmy...",
-};
-
 document.querySelectorAll('.firmy-list li').forEach(item => {
     item.addEventListener('click', () => {
         const key = item.getAttribute('data-firma');
         const box = document.getElementById('firmaContent');
 
-        box.innerText = content[key];
+        document.querySelectorAll('.firma-details').forEach(firma => {
+            firma.classList.add('hidden');
+        });
+
+        const selectedFirma = document.getElementById(key);
+        if (selectedFirma) {
+            selectedFirma.classList.remove('hidden');
+        }
+
         box.style.display = 'block';
     });
 });

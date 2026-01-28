@@ -1,4 +1,4 @@
-@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.my8c3jtpev.bundle.scp.css';
+@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.1c4e8vffay.bundle.scp.css';
 
 /* /Layout/MainLayout.razor.rz.scp.css */
 header[b-eqo69h9tk4]
@@ -54,13 +54,82 @@ nav > ul[b-eqo69h9tk4]
     row-gap: 10px;
     flex-wrap: wrap;
 }
-/* /Pages/Contact.razor.rz.scp.css */
-.contact[b-wcrlbuxnp9]
+/* /Layout/PresentationLayout.razor.rz.scp.css */
+*[b-fw6dmgdaxu]
 {
-    position: relative;
-    padding-top: 40px;
+    box-sizing: border-box;
+    user-select: none;
 }
 
+#presentation[b-fw6dmgdaxu]
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+header[b-fw6dmgdaxu]
+{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    height: 10vh;
+    padding: 10px 20px;
+    font-size: 3vh;
+    background-color: var(--color-accent-normal);
+    cursor: pointer;
+
+    div
+    {
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+
+        img
+        {
+            height: 100%;
+        }
+    }
+
+    h1[b-fw6dmgdaxu]
+    {
+        margin: 0;
+    }
+}
+
+[b-fw6dmgdaxu] header > div > svg
+{
+    width: auto;
+}
+
+main[b-fw6dmgdaxu]
+{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+    font-size: 1.5em;
+    background-color: var(--color-background-normal);
+}
+
+footer[b-fw6dmgdaxu]
+{
+    text-align: center;
+    padding: 5px 0;
+    background-color: var(--color-accent-dark);
+
+    a
+    {
+        color: white;
+        text-decoration: none;
+    }
+}
+/* /Pages/Contact.razor.rz.scp.css */
 h1[b-wcrlbuxnp9]
 {
     font-size: 70px;
@@ -68,17 +137,6 @@ h1[b-wcrlbuxnp9]
     position: relative;
     display: inline-block;
 }
-
-    h1[b-wcrlbuxnp9]::after
-    {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: -7px;
-        height: 2px;
-        width: 400%;
-        background: #007bff;
-    }
 
 .loc[b-wcrlbuxnp9]
 {
@@ -91,6 +149,7 @@ h1[b-wcrlbuxnp9]
     color: white;
     text-decoration: none;
     font-size: 18px;
+    margin-top: 4.5rem;
 }
 
 a[b-wcrlbuxnp9]
@@ -106,7 +165,8 @@ a[b-wcrlbuxnp9]
 
 h2[b-wcrlbuxnp9]
 {
-    margin-top: 18px; /* zdvihne obsah k ?iare */
+    margin-top: 18px;
+    margin-bottom: 0;
 }
 
 .map[b-wcrlbuxnp9]
@@ -118,6 +178,36 @@ h2[b-wcrlbuxnp9]
     height: 350px;
     border: 2px solid #007bff;
     border-radius: 6px;
+}
+
+.left-info[b-wcrlbuxnp9]
+{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 10rem;
+    font-size: 25px;
+    background-color: var(--button-hover-color);
+    border-radius: 10px;
+    border: 2px solid #0751f1;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 7.5rem;
+}
+
+.contact h1[b-wcrlbuxnp9]
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mapa-box[b-wcrlbuxnp9]
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 /* /Pages/Gallery.razor.rz.scp.css */
 #gallery[b-kgodye5dwk]
@@ -220,9 +310,13 @@ section[b-93w17cbj8w]
         cursor: pointer;
         transition: background-color 0.3s, color 0.3s;
         width: 250px;
+        max-width: 250px;
+        min-width: 250px;
         display: flex;
         align-items: center;
         justify-content: center;
+        max-height: 150px;
+        min-height: 150px;
     }
 
         .firmy-list li:hover[b-93w17cbj8w]
@@ -233,6 +327,18 @@ section[b-93w17cbj8w]
 ul li img[b-93w17cbj8w]
 {
     width: 250px;
+}
+
+.telekomLogo[b-93w17cbj8w]
+{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.firma-details .firma-logo-td[b-93w17cbj8w]
+{
+    max-width: 150px;
+    max-height: 110px;
 }
 
 .hidden[b-93w17cbj8w]
@@ -317,6 +423,92 @@ ul li img[b-93w17cbj8w]
         min-height: 110px;
         max-height: 110px;
     }
+}
+/* /Pages/Presentation/Goals.razor.rz.scp.css */
+li[b-tmfvzw6443]
+{
+    font-size: 2em;
+}
+/* /Pages/Presentation/Intro.razor.rz.scp.css */
+section[b-weu04yax3k]
+{
+    display: flex;
+    align-items: center;
+}
+
+h1[b-weu04yax3k]
+{
+    font-size: 5em;
+    margin: 0 40px;
+}
+
+aside[b-weu04yax3k]
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1em;
+
+    img
+    {
+        height: auto;
+    }
+}
+/* /Pages/Presentation/Outro.razor.rz.scp.css */
+/* /Pages/Presentation/Team.razor.rz.scp.css */
+/* /Pages/Presentation/Technologies.razor.rz.scp.css */
+#technologies[b-p1iar1hb5y]
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap: 80px;
+    row-gap: 20px;
+    font-size: 1.0em;
+}
+
+.technology-category[b-p1iar1hb5y]
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.technology-category-name[b-p1iar1hb5y]
+{
+    max-width: 250px;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.technology-category-logos[b-p1iar1hb5y]
+{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.technology[b-p1iar1hb5y]
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.technology-name[b-p1iar1hb5y]
+{
+    max-width: 200px;
+    text-align: center;
+}
+
+.technology-logo[b-p1iar1hb5y]
+{
+    height: 8vh;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #7575753B;
+}
 /* /Pages/PrintAdmissionForm.razor.rz.scp.css */
 /* /Pages/Studies.razor.rz.scp.css */
 section[b-iqlkguo2dr]

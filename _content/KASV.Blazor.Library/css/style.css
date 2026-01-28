@@ -7,10 +7,11 @@ html
     background-color: var(--color-background-normal);
 }
 
-h1, h2, h3, h4, h5, h6/*, label*/
+h1, h2, h3, h4, h5, h6 /*, label*/
 {
-    font-family: "Doto";
-    font-weight: bold;
+    font-family: "Jersey 10", "Doto", sans-serif;
+    /*    font-weight: bold;*/
+    font-weight: 300;
 }
 
 button, input[type=button], input[type=submit]

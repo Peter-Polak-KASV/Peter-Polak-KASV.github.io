@@ -1,4 +1,4 @@
-@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.1c4e8vffay.bundle.scp.css';
+@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.e3mqeqo6k9.bundle.scp.css';
 
 /* /Layout/MainLayout.razor.rz.scp.css */
 header[b-eqo69h9tk4]
@@ -112,15 +112,18 @@ main[b-fw6dmgdaxu]
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 3%;
+/*    margin: 1%;*/
     font-size: 1.5em;
     background-color: var(--color-background-normal);
+    overflow: hidden;
 }
 
 footer[b-fw6dmgdaxu]
 {
-    text-align: center;
-    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 5px 20px;
     background-color: var(--color-accent-dark);
 
     a
@@ -129,28 +132,43 @@ footer[b-fw6dmgdaxu]
         text-decoration: none;
     }
 }
-/* /Pages/Contact.razor.rz.scp.css */
-h1[b-wcrlbuxnp9]
+
+.out-of-time[b-fw6dmgdaxu]
 {
-    font-size: 70px;
-    padding-left: 4px;
-    position: relative;
-    display: inline-block;
+    animation: out-of-time-animation-b-fw6dmgdaxu 1s ease-in-out alternate infinite;
 }
 
-.loc[b-wcrlbuxnp9]
+@keyframes out-of-time-animation-b-fw6dmgdaxu
 {
-    position: absolute;
-    top: 200px;
-    right: 430px;
-    background: #007bff;
-    padding: 8px 14px;
-    border-radius: 4px;
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    margin-top: 4.5rem;
+    0%
+    {
+        color: white;
+    }
+
+    100%
+    {
+        color: red;
+    }
 }
+/* /Pages/Contact.razor.rz.scp.css */
+
+h1[b-wcrlbuxnp9]
+{
+    font-size: 80px;
+}
+
+/* .loc {
+  position: absolute;
+  top: 200px;
+  right: 430px;
+  background: #007bff;
+  padding: 8px 14px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 4.5rem;
+} */
 
 a[b-wcrlbuxnp9]
 {
@@ -167,17 +185,28 @@ h2[b-wcrlbuxnp9]
 {
     margin-top: 18px;
     margin-bottom: 0;
+    text-decoration: underline;
 }
 
-.map[b-wcrlbuxnp9]
+.mapa-box[b-wcrlbuxnp9]
 {
-    position: absolute;
-    top: 320px;
-    right: 250px;
-    width: 600px;
-    height: 350px;
-    border: 2px solid #007bff;
-    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .map
+    {
+        width: 600px;
+        height: 350px;
+        border: 2px solid #0751f1;
+        border-radius: 10px;
+    }
+
+    h2[b-wcrlbuxnp9]
+    {
+        font-size: 80px;
+        display: flex;
+    }
 }
 
 .left-info[b-wcrlbuxnp9]
@@ -185,14 +214,11 @@ h2[b-wcrlbuxnp9]
     display: flex;
     flex-direction: column;
     width: 30%;
-    margin-left: 10rem;
     font-size: 25px;
-    background-color: var(--button-hover-color);
     border-radius: 10px;
-    border: 2px solid #0751f1;
     padding: 10px;
     justify-content: center;
-    margin-top: 7.5rem;
+    text-align: center;
 }
 
 .contact h1[b-wcrlbuxnp9]
@@ -200,14 +226,21 @@ h2[b-wcrlbuxnp9]
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
-.mapa-box[b-wcrlbuxnp9]
+.all-contact[b-wcrlbuxnp9]
 {
+    border: 2px solid #30363a;
+    border-radius: 50px;
+    background-color: #30363a;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
+    max-width: 100%;
+    height: 35em;
+    margin-inline: 2em;
+    justify-content: space-around;
 }
 /* /Pages/Gallery.razor.rz.scp.css */
 #gallery[b-kgodye5dwk]
@@ -326,7 +359,8 @@ section[b-93w17cbj8w]
 
 ul li img[b-93w17cbj8w]
 {
-    width: 250px;
+    max-width: 250px;
+    max-height: 110px;
 }
 
 .telekomLogo[b-93w17cbj8w]
@@ -353,12 +387,12 @@ ul li img[b-93w17cbj8w]
     padding: 18px;
     background-color: var(--nav-button-color);
     border-radius: 12px;
-    display: none;
     color: var(--text-color);
     font-size: 22px;
     line-height: 1.5;
     transition: background-color 0.3s, color 0.3s;
     height: 400px;
+    display: flex;
 
     .people-card .about
     {
@@ -367,6 +401,7 @@ ul li img[b-93w17cbj8w]
         font-size: 18px;
         text-align: center;
         overflow-y: auto;
+        display: flex;
     }
 
     .people-card .firm[b-93w17cbj8w]
@@ -385,7 +420,7 @@ ul li img[b-93w17cbj8w]
 
     .people-card .photo[b-93w17cbj8w]
     {
-        width: 80px;
+        max-width: 80px;
         border-radius: 50%;
     }
 
@@ -399,8 +434,8 @@ ul li img[b-93w17cbj8w]
         padding: 0;
         position: relative;
         width: 400px;
-        height: 350px;
-        top: -100px;
+        height: 400px;
+        top: -120px;
         left: 500px;
         background-color: var(--button-hover-color);
         border-radius: 20px;
@@ -413,16 +448,31 @@ ul li img[b-93w17cbj8w]
         height: 300px;
         font-size: 20px;
         position: relative;
-        top: -350px;
+        top: -380px;
     }
 
-    .firma-logo[b-93w17cbj8w]
+    .container-logo[b-93w17cbj8w]
     {
-        min-width: 250px;
         max-width: 250px;
-        min-height: 110px;
-        max-height: 110px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+
+        .firma-logo
+        {
+            max-height: 110px;
+            max-width: 250px;
+            overflow: hidden;
+        }
     }
+}
+/* /Pages/Presentation/Demo.razor.rz.scp.css */
+section[b-rkr1qfyk8w]
+{
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    font-size: 16px;
 }
 /* /Pages/Presentation/Goals.razor.rz.scp.css */
 li[b-tmfvzw6443]
@@ -453,16 +503,81 @@ aside[b-weu04yax3k]
     {
         height: auto;
     }
+
+    a[b-weu04yax3k]
+    {
+        flex-shrink: 0;
+    }
 }
 /* /Pages/Presentation/Outro.razor.rz.scp.css */
+/* /Pages/Presentation/PresentationIndex.razor.rz.scp.css */
+section[b-h0yepzkxdc]
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 4em;
+    text-align: center;
+    padding: 0 1em;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-accent-normal);
+    box-sizing: border-box;
+    user-select: none;
+    cursor: pointer;
+}
+
+h1[b-h0yepzkxdc], h2[b-h0yepzkxdc]
+{
+    font-family: "Doto";
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+h2[b-h0yepzkxdc]
+{
+    margin: 0;
+    font-size: 0.8em;
+    width: 70%;
+}
+/* /Pages/Presentation/QuestionsAndAnswers.razor.rz.scp.css */
 /* /Pages/Presentation/Team.razor.rz.scp.css */
+ul[b-pqz7fqjo3b]
+{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1em;
+    column-gap: 1em;
+}
+
+li[b-pqz7fqjo3b]
+{
+    display: block;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #00000027;
+}
+
+.name[b-pqz7fqjo3b]
+{
+    font-family: "Doto";
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.role[b-pqz7fqjo3b]
+{
+
+}
 /* /Pages/Presentation/Technologies.razor.rz.scp.css */
 #technologies[b-p1iar1hb5y]
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    column-gap: 80px;
+    column-gap: 50px;
     row-gap: 20px;
     font-size: 1.0em;
 }

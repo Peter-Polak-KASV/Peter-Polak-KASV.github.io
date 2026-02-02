@@ -3,11 +3,8 @@
 :root
 {
     --color-background-normal: white;
+    --color-background-dark: #C7C7C7;
     --color-text-normal: #272727;
-
-    --nav-button-color: #c4c7ca;
-    --button-hover-color: #9d9ea0;
-
 
 
     /*Sebastian's*/

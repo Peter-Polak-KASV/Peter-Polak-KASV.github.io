@@ -8,27 +8,28 @@ html, body
 ::-webkit-scrollbar /* Width */
 {
     width: 10px;
+    height: 10px;
 }
 
 ::-webkit-scrollbar-track /* Track */
 {
-    background: #282828;
+    background: var(--color-background-dark);
 }
 
 ::-webkit-scrollbar-thumb /* Handle */
 {
-    background: var(--color-accent-normal);
+    background: linear-gradient(var(--color-accent-normal), var(--color-accent-dark));
     border-radius: 10px;
 
     &:hover /* Handle on hover */
     {
-        background: var(--color-accent-dark);
+        background: var(--color-accent-light);
     }
 }
 
 #loading-container
 {
-    background-color: var(--color-accent-dark);
+    background: var(--linear-gradient-accent);
     height: 100vh;
     width: 100vw;
     color: white;
@@ -50,7 +51,7 @@ html, body
 
     #loading-heading
     {
-        margin: 0;
+        margin: 20px 0 0 0;
         font-size: 5em;
     }
 }

@@ -1,4 +1,4 @@
-@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.e3mqeqo6k9.bundle.scp.css';
+@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.l59ceaj217.bundle.scp.css';
 
 /* /Layout/MainLayout.razor.rz.scp.css */
 header[b-eqo69h9tk4]
@@ -69,6 +69,7 @@ nav > ul[b-eqo69h9tk4]
     width: 100vw;
     overflow-x: hidden;
     overflow-y: hidden;
+    background: linear-gradient(var(--color-background-normal) 50%, var(--color-background-dark) 100%);
 }
 
 header[b-fw6dmgdaxu]
@@ -79,13 +80,14 @@ header[b-fw6dmgdaxu]
     height: 10vh;
     padding: 10px 20px;
     font-size: 3vh;
-    background-color: var(--color-accent-normal);
+    background: linear-gradient(var(--color-accent-normal) 50%, var(--color-accent-dark) 100%);
     cursor: pointer;
 
     div
     {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         height: 100%;
         width: 100%;
 
@@ -112,9 +114,8 @@ main[b-fw6dmgdaxu]
     display: flex;
     align-items: center;
     justify-content: center;
-/*    margin: 1%;*/
+    margin: 2%;
     font-size: 1.5em;
-    background-color: var(--color-background-normal);
     overflow: hidden;
 }
 
@@ -155,6 +156,8 @@ footer[b-fw6dmgdaxu]
 h1[b-wcrlbuxnp9]
 {
     font-size: 80px;
+    margin-bottom: 20px;
+    margin-top: 18px;
 }
 
 /* .loc {
@@ -233,7 +236,7 @@ h2[b-wcrlbuxnp9]
 {
     border: 2px solid #30363a;
     border-radius: 50px;
-    background-color: #30363a;
+    background-color: var(--button-hover-color);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -248,17 +251,23 @@ h2[b-wcrlbuxnp9]
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    row-gap: 2vh;
-    column-gap: 1vw;
+    justify-content: space-evenly;
+    gap: 2vw;
     margin: 2vw;
+}
+
+#overlay-gallery-container[b-kgodye5dwk]
+{
+    justify-self: end;
+    display: flex;
+    flex-direction: column;
 }
 
 #overlay-carousel[b-kgodye5dwk]
 {
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
 }
 
 #overlay-footer[b-kgodye5dwk]
@@ -268,31 +277,81 @@ h2[b-wcrlbuxnp9]
     width: 100%;
 }
 
-.overlay-carousel-button[b-kgodye5dwk]
+#overlay-image-container[b-kgodye5dwk]
 {
-    position: fixed;
-    top: 50%;
-    left: 5vw;
-    color: var(--color-accent-normal);
-    background-color: transparent;
-    padding: 0;
-    margin: 2vw;
-
-    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
 }
 
 #overlay-image[b-kgodye5dwk]
 {
     display: block;
-    margin: 0 auto;
     max-height: 65vh;
-    max-width: 90vw;
+    max-width: 95vw;
+    object-fit: contain;
 }
 
 .overlay-image-description[b-kgodye5dwk]
 {
     text-align: center;
-    margin-top: 10px;
+    color: white;
+}
+
+#carousel-container[b-kgodye5dwk]
+{
+    position: absolute;
+    bottom: 1%;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    overflow-y: visible;
+}
+
+.overlay-carousel-button[b-kgodye5dwk]
+{
+    color: var(--color-accent-normal);
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+#carousel[b-kgodye5dwk]
+{
+    display: flex;
+    column-gap: 1vw;
+    overflow-x: auto;
+    overflow-y: visible;
+    padding: 10px;
+
+    button
+    {
+        flex-shrink: 0;
+        height: 10vh;
+        width: 15vh;
+        margin: 2px;
+        padding: 0;
+        background-color: transparent;
+
+        &.active
+        {
+            box-shadow: 0px 0px 10px 5px var(--color-accent-normal);
+        }
+    }
+
+    img[b-kgodye5dwk]
+    {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
 /* /Pages/Index.razor.rz.scp.css */
 section[b-i4l905nfm0]
@@ -360,7 +419,6 @@ section[b-93w17cbj8w]
 ul li img[b-93w17cbj8w]
 {
     max-width: 250px;
-    max-height: 110px;
 }
 
 .telekomLogo[b-93w17cbj8w]
@@ -392,9 +450,10 @@ ul li img[b-93w17cbj8w]
     line-height: 1.5;
     transition: background-color 0.3s, color 0.3s;
     height: 400px;
-    display: flex;
+    display: none;
+}
 
-    .people-card .about
+    .firma-content .people-card .about[b-93w17cbj8w]
     {
         margin: 0;
         width: 350px;
@@ -404,7 +463,7 @@ ul li img[b-93w17cbj8w]
         display: flex;
     }
 
-    .people-card .firm[b-93w17cbj8w]
+    .firma-content .people-card .firm[b-93w17cbj8w]
     {
         margin: 0;
         font-weight: 100;
@@ -412,19 +471,19 @@ ul li img[b-93w17cbj8w]
         text-align: center;
     }
 
-    .people-card .guy-name[b-93w17cbj8w]
+    .firma-content .people-card .guy-name[b-93w17cbj8w]
     {
         margin: 0;
         font-weight: 300;
     }
 
-    .people-card .photo[b-93w17cbj8w]
+    .firma-content .people-card .photo[b-93w17cbj8w]
     {
         max-width: 80px;
         border-radius: 50%;
     }
 
-    .people-card[b-93w17cbj8w]
+    .firma-content .people-card[b-93w17cbj8w]
     {
         display: flex;
         justify-content: center;
@@ -442,7 +501,7 @@ ul li img[b-93w17cbj8w]
         border: 2px solid var(--nav-bar-color);
     }
 
-    .firma-text[b-93w17cbj8w]
+    .firma-content .firma-text[b-93w17cbj8w]
     {
         width: 400px;
         height: 300px;
@@ -451,20 +510,105 @@ ul li img[b-93w17cbj8w]
         top: -380px;
     }
 
-    .container-logo[b-93w17cbj8w]
+    .firma-content .container-logo[b-93w17cbj8w]
     {
         max-width: 250px;
         height: 120px;
         display: flex;
         align-items: center;
+    }
 
-        .firma-logo
+        .firma-content .container-logo .firma-logo[b-93w17cbj8w]
         {
             max-height: 110px;
             max-width: 250px;
             overflow: hidden;
         }
+
+@media (max-width: 768px)
+{
+    body[b-93w17cbj8w]
+    {
+        padding-top: 100px;
     }
+
+    section h1[b-93w17cbj8w]
+    {
+        font-size: 34px;
+        margin: 24px 8px;
+    }
+
+    .firmy-list[b-93w17cbj8w]
+    {
+        flex-wrap: wrap;
+        gap: 12px;
+        padding: 0 10px;
+        margin: 10px 0;
+    }
+
+        .firmy-list li[b-93w17cbj8w]
+        {
+            width: 45%;
+            min-width: auto;
+            max-width: none;
+            min-height: 100px;
+            max-height: none;
+            padding: 8px;
+        }
+
+    ul li img[b-93w17cbj8w]
+    {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .telekomLogo[b-93w17cbj8w]
+    {
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .firma-content[b-93w17cbj8w]
+    {
+        max-width: 95%;
+        height: auto;
+        padding: 14px;
+    }
+
+        .firma-content .container-logo[b-93w17cbj8w]
+        {
+            justify-content: center;
+            height: auto;
+            margin-bottom: 10px;
+            margin-inline: 100px;
+        }
+
+        .firma-content .people-card[b-93w17cbj8w]
+        {
+            position: static;
+            width: 100%;
+            height: auto;
+            left: 0;
+            top: 0;
+            padding: 12px;
+            box-sizing: border-box;
+        }
+
+            .firma-content .people-card .about[b-93w17cbj8w]
+            {
+                width: 100%;
+                font-size: 16px;
+            }
+
+        .firma-content .firma-text[b-93w17cbj8w]
+        {
+            position: static;
+            width: 100%;
+            height: auto;
+            font-size: 18px;
+            margin-top: 12px;
+            text-align: center;
+        }
 }
 /* /Pages/Presentation/Demo.razor.rz.scp.css */
 section[b-rkr1qfyk8w]
@@ -522,7 +666,8 @@ section[b-h0yepzkxdc]
     padding: 0 1em;
     width: 100vw;
     height: 100vh;
-    background-color: var(--color-accent-normal);
+    /*background-color: var(--color-accent-normal);*/
+    background: linear-gradient(var(--color-accent-normal) 50%, var(--color-accent-dark) 100%);
     box-sizing: border-box;
     user-select: none;
     cursor: pointer;
@@ -577,9 +722,10 @@ li[b-pqz7fqjo3b]
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    column-gap: 50px;
-    row-gap: 20px;
-    font-size: 1.0em;
+    column-gap: 2em;
+    row-gap: 2em;
+
+    font-size: 1em;
 }
 
 .technology-category[b-p1iar1hb5y]
@@ -591,9 +737,10 @@ li[b-pqz7fqjo3b]
 
 .technology-category-name[b-p1iar1hb5y]
 {
-    max-width: 250px;
-    text-align: center;
+    width: 100%;
     margin: 0 0 10px 0;
+    text-align: center;
+    border-bottom: 2px solid var(--color-accent-normal);
 }
 
 .technology-category-logos[b-p1iar1hb5y]
@@ -612,14 +759,15 @@ li[b-pqz7fqjo3b]
 
 .technology-name[b-p1iar1hb5y]
 {
-    max-width: 200px;
+    max-width: 15ch;
     text-align: center;
 }
 
 .technology-logo[b-p1iar1hb5y]
 {
-    height: 8vh;
-    margin: 5px;
+    height: 3em;
+    width: 3em;
+    object-fit: contain;
     padding: 10px;
     border-radius: 10px;
     background-color: #7575753B;

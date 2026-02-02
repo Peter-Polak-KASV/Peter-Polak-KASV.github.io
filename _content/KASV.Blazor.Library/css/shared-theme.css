@@ -5,4 +5,6 @@
     --color-accent-light: #3d9eff;
     --color-accent-normal: #0080ff;
     --color-accent-dark: #005bb5;
+
+    --linear-gradient-accent: linear-gradient(var(--color-accent-normal) 50%, var(--color-accent-dark) 100%);
 }

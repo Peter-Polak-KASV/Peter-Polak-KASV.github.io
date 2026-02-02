@@ -1,0 +1,22 @@
+﻿/*Scroll bar*/
+::-webkit-scrollbar /* Width */
+{
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track /* Track */
+{
+    background: var(--color-background-dark);
+}
+
+::-webkit-scrollbar-thumb /* Handle */
+{
+    background: linear-gradient(var(--color-accent-normal), var(--color-accent-dark));
+    border-radius: 10px;
+
+    &:hover /* Handle on hover */
+    {
+        background: var(--color-accent-light);
+    }
+}

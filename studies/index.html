@@ -6,12 +6,15 @@
     <base target="_blank"/>
 
     <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
-    <link href="_framework/dotnet.o9sgx93nk0.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-HGgC7HWdNNIDK86j3bC1a87XZ+gCkI1ikMp2nlzbfYs="/>
+    <link href="_framework/dotnet.nnc7cn29j5.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-LRzNqBVBs7OxhfPPCH75vXW/8Lm0RJAOc3voIU1Z3ak="/>
     <link rel="stylesheet" href="_content/KASV.Blazor.Library/css/shared-theme.css"/>
     <link rel="stylesheet" href="_content/KASV.Blazor.Library/css/dark-theme.css"/>
     <link rel="stylesheet" href="_content/KASV.Blazor.Library/css/Material Symbols Sharp.css"/>
     <link rel="stylesheet" href="_content/KASV.Blazor.Library/css/fonts.css"/>
     <link rel="stylesheet" href="_content/KASV.Blazor.Library/css/style.css"/>
+    <link rel="stylesheet" href="css/loading.css"/>
+    <link rel="stylesheet" href="css/scrollbar.css"/>
+    <link rel="stylesheet" href="css/tooltip.css"/>
     <link rel="stylesheet" href="css/app.css"/>
     <!-- If you add any scoped CSS files, uncomment the following to load them-->
     <link href="KASV.Blazor.WebAssembly.styles.css" rel="stylesheet"/>
@@ -20,17 +23,17 @@
   "imports": {
     "./_framework/blazor.webassembly.js": "./_framework/blazor.webassembly.66stpp682q.js",
     "./_framework/dotnet.native.js": "./_framework/dotnet.native.sh4hma5oom.js",
-    "./_framework/dotnet.js": "./_framework/dotnet.o9sgx93nk0.js",
+    "./_framework/dotnet.js": "./_framework/dotnet.nnc7cn29j5.js",
     "./_framework/dotnet.runtime.js": "./_framework/dotnet.runtime.2tx45g8lli.js"
   },
   "scopes": {},
   "integrity": {
     "./_framework/blazor.webassembly.66stpp682q.js": "sha256-3lCWrko3zwspV40aQhs2S/IMkRSarnHRKIdkHhuXIBA=",
     "./_framework/blazor.webassembly.js": "sha256-3lCWrko3zwspV40aQhs2S/IMkRSarnHRKIdkHhuXIBA=",
-    "./_framework/dotnet.js": "sha256-HGgC7HWdNNIDK86j3bC1a87XZ+gCkI1ikMp2nlzbfYs=",
+    "./_framework/dotnet.js": "sha256-LRzNqBVBs7OxhfPPCH75vXW/8Lm0RJAOc3voIU1Z3ak=",
     "./_framework/dotnet.native.js": "sha256-AL9reynwu3wdsdpaFWn2Ro5lMiMOTpF6OP8lE/G/4y8=",
     "./_framework/dotnet.native.sh4hma5oom.js": "sha256-AL9reynwu3wdsdpaFWn2Ro5lMiMOTpF6OP8lE/G/4y8=",
-    "./_framework/dotnet.o9sgx93nk0.js": "sha256-HGgC7HWdNNIDK86j3bC1a87XZ+gCkI1ikMp2nlzbfYs=",
+    "./_framework/dotnet.nnc7cn29j5.js": "sha256-LRzNqBVBs7OxhfPPCH75vXW/8Lm0RJAOc3voIU1Z3ak=",
     "./_framework/dotnet.runtime.2tx45g8lli.js": "sha256-2lZh9yO0fnzm3Xt7yV+Kox3DH3nK7L8hDhm84VT1xco=",
     "./_framework/dotnet.runtime.js": "sha256-2lZh9yO0fnzm3Xt7yV+Kox3DH3nK7L8hDhm84VT1xco="
   }
@@ -90,11 +93,31 @@
     <select id="theme-select" value="en" b-ph2p29qqzq><option value="en" b-ph2p29qqzq selected>en</option><option value="sk" b-ph2p29qqzq>sk</option></select></div>
         <button b-ki9i8zwf9f><span class="material-symbols-sharp" style=" font-size: ;  " b-gla9kip7yt>light_mode</span></button></div></header>
 
-<main b-eqo69h9tk4><section b-iqlkguo2dr><h1 b-iqlkguo2dr>Programming Class</h1></section>
-<section b-iqlkguo2dr><p class="ClassInfo" b-iqlkguo2dr>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique unde quis reprehenderit enim neque velit nihil labore suscipit nesciunt deserunt eveniet, obcaecati sapiente quos consectetur sit iure beatae molestias voluptatibus?
-        Expedita voluptatibus tenetur repellat ipsa maxime consequuntur placeat numquam consectetur rem, explicabo id hic unde labore deleniti, voluptatum exercitationem molestias? Accusantium reprehenderit tenetur ut numquam tempora cum, repellendus ullam distinctio.
-    </p></section></main>
+<main b-eqo69h9tk4><section class="academy" b-iqlkguo2dr><div class="academy__header" b-iqlkguo2dr><h1 b-iqlkguo2dr>KOŠICKÁ AKADÉMIA SOFTVÉROVÉHO VÝVOJA</h1></div>
+
+    <div class="academy__container" b-iqlkguo2dr><div class="academy__content" b-iqlkguo2dr><p class="academy__highlight" b-iqlkguo2dr>
+                Chvíľu sa učíš v škole,<br b-iqlkguo2dr>
+                Potom pracuješ v IT firme
+            </p>
+
+            <p b-iqlkguo2dr>
+                Košice IT Valley ti v spolupráci s partnermi prináša
+                výnimočné bezplatné trojročné štúdium.
+            </p>
+
+            <p b-iqlkguo2dr>
+                Za rok a pol ťa naučíme programovať a potom budeš pracovať
+                na zaujímavých projektoch až v štyroch IT spoločnostiach
+                v Košiciach.
+            </p>
+
+            <p b-iqlkguo2dr>
+                Ak budeš úspešný, po štúdiu si veľmi ľahko v jednej z nich
+                nájdeš skvelé zamestnanie.
+            </p></div>
+
+        <div class="academy__images" b-iqlkguo2dr><div class="academy__image" b-iqlkguo2dr><img src="images/academy_images/classroom.jpg" alt="Výučba v triede" b-iqlkguo2dr></div>
+            <div class="academy__image" b-iqlkguo2dr><img src="images/academy_images/team.jpg" alt="Tím študentov" b-iqlkguo2dr></div></div></div></section></main>
         <blazor-focus-on-navigate selector="h1"></blazor-focus-on-navigate>
 
 </div>

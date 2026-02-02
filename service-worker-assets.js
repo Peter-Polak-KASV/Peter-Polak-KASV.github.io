@@ -2437,8 +2437,8 @@
       "url": "_framework\/KASV.Blazor.Library.d2pz2kxybj.wasm"
     },
     {
-      "hash": "sha256-2JHZXjVY9A0hAa5CJPLB1LPSH5YYeAhKyAXr54Dw\/vw=",
-      "url": "_framework\/KASV.Blazor.WebAssembly.k59adms1rv.wasm"
+      "hash": "sha256-NvrgyBetHyC9u9WFOX4vrV+bBOdBKcLLbwTNagFX+Z0=",
+      "url": "_framework\/KASV.Blazor.WebAssembly.a4f9piddvz.wasm"
     },
     {
       "hash": "sha256-SvsHbHaxF6+vqS\/b0aZaaltPH6DWGMApKSqgZbwLOuc=",
@@ -2757,16 +2757,16 @@
       "url": "_framework\/blazor.webassembly.66stpp682q.js"
     },
     {
+      "hash": "sha256-MVqXmRftvtpDNDG9oK4oTmdfqQCOZLv2RSgeNqYcYeQ=",
+      "url": "_framework\/dotnet.5r6oaidqs9.js"
+    },
+    {
       "hash": "sha256-Iqwk1i2xc2OxjbCiElLgjeGOzapR2l7ZlEPQ42ghMo4=",
       "url": "_framework\/dotnet.native.ib4oo4gybq.wasm"
     },
     {
       "hash": "sha256-AL9reynwu3wdsdpaFWn2Ro5lMiMOTpF6OP8lE\/G\/4y8=",
       "url": "_framework\/dotnet.native.sh4hma5oom.js"
-    },
-    {
-      "hash": "sha256-LRzNqBVBs7OxhfPPCH75vXW\/8Lm0RJAOc3voIU1Z3ak=",
-      "url": "_framework\/dotnet.nnc7cn29j5.js"
     },
     {
       "hash": "sha256-2lZh9yO0fnzm3Xt7yV+Kox3DH3nK7L8hDhm84VT1xco=",
@@ -2781,8 +2781,8 @@
       "url": "_framework\/sk\/KASV.Blazor.Library.resources.bf91vdjbal.wasm"
     },
     {
-      "hash": "sha256-kxslOZau2k9YFEO5YkwmxXI+r4vdjKb4PvYUQLoqeRU=",
-      "url": "_framework\/sk\/KASV.Blazor.WebAssembly.resources.b2k8o3w0q3.wasm"
+      "hash": "sha256-ZfG++vVM9R8YbOxa0SpVw3ijlxRJw1N\/LV5L4h8O4l0=",
+      "url": "_framework\/sk\/KASV.Blazor.WebAssembly.resources.5s3x0g6ba7.wasm"
     },
     {
       "hash": "sha256-L8eCff5Qz1lfiaKvnJ+rnzQk6y3GEc3pD1mrvwuy9PM=",
@@ -3017,7 +3017,7 @@
       "url": "images\/technologies\/reCAPTCHA.png"
     },
     {
-      "hash": "sha256-+v3cj07IcgSVBi3fYxscKIM+Y3eIzxKRJvb1TTny\/Ns=",
+      "hash": "sha256-FjI46Fwkr+3OgEpp5hDLc6N0cISa3S53kdurKYxidUM=",
       "url": "index.html"
     },
     {
@@ -3033,49 +3033,49 @@
       "url": "xml\/sitemap.xml"
     },
     {
-      "hash": "sha256-P83WgfYS3XGlDij84W1fHHdY+nRaSNAag5R9bIE\/wtg=",
+      "hash": "sha256-z9HU+Zxm4mMNI19KwQtFaIBxFBpmyqmqbvFn2zomfdw=",
       "url": "studies\/index.html"
     },
     {
-      "hash": "sha256-9d9IRRj7gEthrgtDf9rlQPhvenFVELa3\/E7bVPAMZoE=",
+      "hash": "sha256-FTUhqmsgqfSO4r1OLmVI8Pn8L+9rg3yxIGiVimsbMtY=",
       "url": "partners\/index.html"
     },
     {
-      "hash": "sha256-JZRqp1LRYUUGOXOvoN5FR5FchsMPntQ30keVhNA587I=",
+      "hash": "sha256-r4AMGCLmw2\/2b4km7aLZ1BphDaHvH9Dh8zidoURvp9A=",
       "url": "admission-form\/index.html"
     },
     {
-      "hash": "sha256-BXem7D2Qs9HxXYjUpTTQB2Bz1y\/2EaJCI2SH9kpHqe8=",
+      "hash": "sha256-vUZDzdx9SOlCQ+zCAijfMOaz5b8gIiaOppk3\/gX0HNg=",
       "url": "gallery\/index.html"
     },
     {
-      "hash": "sha256-u1W+zLw90Iaq3L4mBm8HHCHRALFcQXqEolwhOJ4THqs=",
+      "hash": "sha256-LqDwAkOcNcYbSPUoz8lzLhT9wK2cwnf28RZ2aKrutXU=",
       "url": "contact\/index.html"
     },
     {
-      "hash": "sha256-9Y5udz9SpHNXdfj7GTOHvbgCafl3YnWqXqEHEnqi2YA=",
+      "hash": "sha256-drMKeIU2f2BnhjuH7K0t3osdAa61TXcEXWrof4\/4F4M=",
       "url": "galeria\/index.html"
     },
     {
-      "hash": "sha256-zTUWUXEgmuS82rOGzzta7z5XeLepLUNrOgyJWu4c9nc=",
+      "hash": "sha256-Eg5BTmfGYWBs5Klqo8CCoelBuGW8F1f01JJjp2wfjsQ=",
       "url": "partneri\/index.html"
     },
     {
-      "hash": "sha256-sSgpJmfVpLSk4Ou5\/JNVlFzdmFYLwaLpUsaCCW6CCwc=",
+      "hash": "sha256-df1IM75eJdllW+K9f7K1q3jgstwIM5WCZTjwPC86EoU=",
       "url": "prihlaska\/index.html"
     },
     {
-      "hash": "sha256-2Czes5olMiPpHVidiuNhmJhFkWuax2q6ldP0LdFdkvo=",
+      "hash": "sha256-7y5dqY10riKAMbykYyaWxlvQ2z1HAX5UEkO7xc+\/edA=",
       "url": "studium\/index.html"
     },
     {
-      "hash": "sha256-50FieWWCudDTVoDB7jhnYFVdKeifwrNoCDOW2VwFR9g=",
+      "hash": "sha256-VcycBYsnTtJRa4bo8eXVivpZYy9oqzT6S4FqcDTZaTs=",
       "url": "kontakt\/index.html"
     },
     {
-      "hash": "sha256-vFTdZTDrZs76+2U3mNsf\/rhY1pkt\/5lK1VAWxwthRnk=",
+      "hash": "sha256-AVKifH0tKXEybJL5vpeN\/twFXCOFodP8cSb5SYt1BpM=",
       "url": "presentation\/index.html"
     }
   ],
-  "version": "hjeTZC9P"
+  "version": "kFZQG3O8"
 };

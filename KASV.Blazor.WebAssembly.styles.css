@@ -1,5 +1,14 @@
-@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.l59ceaj217.bundle.scp.css';
+@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.2q6ebvn2si.bundle.scp.css';
 
+/* /Layout/DemoLayout.razor.rz.scp.css */
+section[b-aqzibywdu9]
+{
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
 /* /Layout/MainLayout.razor.rz.scp.css */
 header[b-eqo69h9tk4]
 {
@@ -80,6 +89,7 @@ header[b-fw6dmgdaxu]
     height: 10vh;
     padding: 10px 20px;
     font-size: 3vh;
+    color: white;
     background: linear-gradient(var(--color-accent-normal) 50%, var(--color-accent-dark) 100%);
     cursor: pointer;
 
@@ -646,8 +656,8 @@ ul li img[b-93w17cbj8w]
             text-align: center;
         }
 }
-/* /Pages/Presentation/Demo.razor.rz.scp.css */
-section[b-rkr1qfyk8w]
+/* /Pages/Presentation/Demos/IndexDemo.razor.rz.scp.css */
+section[b-onxf6cn7ce]
 {
     height: 100%;
     width: 100%;

@@ -696,7 +696,7 @@ aside[b-weu04yax3k]
 
     a[b-weu04yax3k]
     {
-        flex-shrink: 0;
+        white-space: nowrap;
     }
 }
 /* /Pages/Presentation/Outro.razor.rz.scp.css */

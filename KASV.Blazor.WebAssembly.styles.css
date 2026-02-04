@@ -1,4 +1,4 @@
-@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.2q6ebvn2si.bundle.scp.css';
+@import '_content/KASV.Blazor.Library/KASV.Blazor.Library.0a9i52npyh.bundle.scp.css';
 
 /* /Layout/DemoLayout.razor.rz.scp.css */
 section[b-aqzibywdu9]
@@ -81,15 +81,24 @@ nav > ul[b-eqo69h9tk4]
     background: linear-gradient(var(--color-background-normal) 50%, var(--color-background-dark) 100%);
 }
 
+[b-fw6dmgdaxu] svg
+{
+    margin: 0;
+}
+
 header[b-fw6dmgdaxu]
 {
+    position: relative;
     display: flex;
     align-items: center;
-    column-gap: 20px;
+    column-gap: 1em;
+
     height: 10vh;
-    padding: 10px 20px;
+    padding: 1em;
+
     font-size: 3vh;
     color: white;
+
     background: linear-gradient(var(--color-accent-normal) 50%, var(--color-accent-dark) 100%);
     cursor: pointer;
 
@@ -98,6 +107,7 @@ header[b-fw6dmgdaxu]
         display: flex;
         justify-content: space-between;
         align-items: center;
+
         height: 100%;
         width: 100%;
 
@@ -110,6 +120,13 @@ header[b-fw6dmgdaxu]
     h1[b-fw6dmgdaxu]
     {
         margin: 0;
+    }
+
+    #qr-code[b-fw6dmgdaxu]
+    {
+        position: absolute;
+        right: 0;
+        height: 100%;
     }
 }
 
@@ -131,9 +148,10 @@ main[b-fw6dmgdaxu]
 
 footer[b-fw6dmgdaxu]
 {
+    position: relative;
     display: flex;
     justify-content: space-between;
-
+    font-size: 1.2em;
     padding: 5px 20px;
     background-color: var(--color-accent-dark);
 
@@ -141,6 +159,13 @@ footer[b-fw6dmgdaxu]
     {
         color: white;
         text-decoration: none;
+    }
+
+    & > a[b-fw6dmgdaxu]
+    {
+        position: absolute;
+        left: 50%;
+        translate: -50% 0;
     }
 }
 
@@ -623,10 +648,11 @@ ul li img[b-93w17cbj8w]
     .firma-content .firma-text[b-93w17cbj8w]
     {
         width: 400px;
-        height: 300px;
+        height: 250px;
         font-size: 20px;
         position: relative;
         top: -380px;
+        overflow-y: auto;
     }
 
     .firma-content .container-logo[b-93w17cbj8w]
@@ -763,9 +789,76 @@ section[b-onxf6cn7ce]
     }
 }
 /* /Pages/Presentation/Goals.razor.rz.scp.css */
+section[b-tmfvzw6443]
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul[b-tmfvzw6443]
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 li[b-tmfvzw6443]
 {
-    font-size: 2em;
+    font-size: 1.5em;
+}
+
+#mockup[b-tmfvzw6443]
+{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+img[b-tmfvzw6443]
+{
+    position: relative;
+    height: 855px;
+    object-fit: contain;
+    z-index: 1;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+#browser[b-tmfvzw6443]
+{
+    position: absolute;
+    top: 20px;
+    right: 76px;
+
+    height: 660px;
+    width: 320px;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+    z-index: 0;
+
+    border-radius: 20px;
+
+}
+
+#url[b-tmfvzw6443]
+{
+    background-color: black;
+    font-size: 0.6em;
+    padding: 0 1.5em;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+}
+
+iframe[b-tmfvzw6443]
+{
+    flex-grow: 1;
 }
 /* /Pages/Presentation/Intro.razor.rz.scp.css */
 section[b-weu04yax3k]
@@ -798,6 +891,21 @@ aside[b-weu04yax3k]
     }
 }
 /* /Pages/Presentation/Outro.razor.rz.scp.css */
+div[b-v8f1j58uof]
+{
+    display: flex;
+}
+
+.center[b-v8f1j58uof]
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+    font-size: 3em;
+}
+
 /* /Pages/Presentation/PresentationIndex.razor.rz.scp.css */
 section[b-h0yepzkxdc]
 {
@@ -831,6 +939,27 @@ h2[b-h0yepzkxdc]
     width: 70%;
 }
 /* /Pages/Presentation/QuestionsAndAnswers.razor.rz.scp.css */
+div[b-1rmw6w1p0a]
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.center[b-1rmw6w1p0a]
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1em;
+}
+
+h3[b-1rmw6w1p0a]
+{
+    font-size: 4em;
+    text-align: center;
+}
 /* /Pages/Presentation/Team.razor.rz.scp.css */
 ul[b-pqz7fqjo3b]
 {
@@ -846,7 +975,7 @@ li[b-pqz7fqjo3b]
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    background-color: #00000027;
+    background-color: #7575753B;
 }
 
 .name[b-pqz7fqjo3b]

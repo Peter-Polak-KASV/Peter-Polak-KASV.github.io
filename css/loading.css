@@ -17,13 +17,13 @@
     {
         display: block;
         margin: 0 auto;
-        height: 6em;
+        height: 10vh;
     }
 
     #loading-heading
     {
         margin: 20px 0 0 0;
-        font-size: 5em;
+        font-size: 10vh;
     }
 }
 

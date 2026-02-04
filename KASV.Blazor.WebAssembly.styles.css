@@ -854,6 +854,9 @@ img[b-tmfvzw6443]
     padding: 0 1.5em;
     padding-top: 2em;
     padding-bottom: 0.5em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 iframe[b-tmfvzw6443]
@@ -959,6 +962,13 @@ h3[b-1rmw6w1p0a]
 {
     font-size: 4em;
     text-align: center;
+    margin: 0.1em;
+}
+
+
+a[b-1rmw6w1p0a]
+{
+    white-space: nowrap;
 }
 /* /Pages/Presentation/Team.razor.rz.scp.css */
 ul[b-pqz7fqjo3b]

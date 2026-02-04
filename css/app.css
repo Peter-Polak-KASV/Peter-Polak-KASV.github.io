@@ -4,7 +4,13 @@ html, body
     padding: 0;
 }
 
-
+iframe
+{
+    height: 100%;
+    width: 100%;
+    border: none;
+    user-select: none;
+}
 
 /*Blazor UI defaults bellow*/
 .valid.modified:not([type=checkbox])

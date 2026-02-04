@@ -124,7 +124,7 @@ main[b-fw6dmgdaxu]
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2%;
+    margin: 1%;
     font-size: 1.5em;
     overflow: hidden;
 }
@@ -162,7 +162,6 @@ footer[b-fw6dmgdaxu]
     }
 }
 /* /Pages/Contact.razor.rz.scp.css */
-
 h1[b-wcrlbuxnp9]
 {
     font-size: 80px;
@@ -254,6 +253,80 @@ h2[b-wcrlbuxnp9]
     height: 35em;
     margin-inline: 2em;
     justify-content: space-around;
+}
+
+@media (max-width: 768px)
+{
+    body[b-wcrlbuxnp9]
+    {
+        padding-top: 64px;
+        letter-spacing: 1px;
+    }
+
+    h1[b-wcrlbuxnp9]
+    {
+        font-size: 40px;
+        margin-top: 12px;
+    }
+
+    .mapa-box h2[b-wcrlbuxnp9]
+    {
+        font-size: 40px;
+    }
+
+    nav[b-wcrlbuxnp9]
+    {
+        gap: 8px;
+        padding: 8px 12px;
+    }
+
+        nav .logo[b-wcrlbuxnp9]
+        {
+            width: 48px;
+        }
+
+        nav button[b-wcrlbuxnp9]
+        {
+            padding: 6px 10px;
+        }
+
+    .all-contact[b-wcrlbuxnp9]
+    {
+        flex-direction: column;
+        border-radius: 16px;
+        height: auto;
+        margin: 0 0.75em;
+        padding: 1em;
+        gap: 1rem;
+    }
+
+    .left-info[b-wcrlbuxnp9]
+    {
+        width: 100%;
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .mapa-box .map[b-wcrlbuxnp9]
+    {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        aspect-ratio: 16 / 9;
+    }
+}
+
+@media (max-width: 480px)
+{
+    h1[b-wcrlbuxnp9], .mapa-box h2[b-wcrlbuxnp9]
+    {
+        font-size: 32px;
+    }
+
+    nav button[b-wcrlbuxnp9]
+    {
+        padding: 6px 10px;
+    }
 }
 /* /Pages/Gallery.razor.rz.scp.css */
 #gallery[b-kgodye5dwk]
@@ -664,6 +737,31 @@ section[b-onxf6cn7ce]
     overflow: scroll;
     font-size: 16px;
 }
+/* /Pages/Presentation/Demos/ResponsiveDemo.razor.rz.scp.css */
+#responsive-container[b-1mt8t4ofip]
+{
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    animation: shrink-b-1mt8t4ofip 3s alternate infinite ease-in-out;
+    border: 2px solid red;
+    overflow: scroll;
+    box-sizing: border-box;
+}
+
+@keyframes shrink-b-1mt8t4ofip
+{
+    0%
+    {
+        width: 100%;
+    }
+
+    100%
+    {
+        width: 320px;
+    }
+}
 /* /Pages/Presentation/Goals.razor.rz.scp.css */
 li[b-tmfvzw6443]
 {
@@ -839,7 +937,6 @@ li[b-pqz7fqjo3b]
         font-size: 70px;
         font-weight: 700;
         text-transform: uppercase;
-        color: #eaeaea;
     }
 
 
@@ -866,7 +963,6 @@ li[b-pqz7fqjo3b]
     {
         font-size: 26px;
         line-height: 1.7;
-        color: #cfcfcf;
         margin-bottom: 16px;
     }
 
@@ -874,7 +970,6 @@ li[b-pqz7fqjo3b]
 .academy__highlight[b-iqlkguo2dr]
 {
     font-weight: 700;
-    color: #ffffff;
     margin-bottom: 24px;
     position: relative;
     padding-bottom: 12px;

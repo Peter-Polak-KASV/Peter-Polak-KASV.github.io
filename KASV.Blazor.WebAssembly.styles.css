@@ -915,14 +915,21 @@ div[b-v8f1j58uof]
     display: flex;
 }
 
+h2[b-v8f1j58uof]
+{
+    margin: 0;
+}
+
 .center[b-v8f1j58uof]
 {
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
+    gap: 1em;
 
     font-size: 3em;
+    text-align: center;
 }
 
 /* /Pages/Presentation/PresentationIndex.razor.rz.scp.css */

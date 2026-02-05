@@ -174,6 +174,22 @@ footer[b-fw6dmgdaxu]
     animation: out-of-time-animation-b-fw6dmgdaxu 1s ease-in-out alternate infinite;
 }
 
+#next-slide[b-fw6dmgdaxu]
+{
+    a
+    {
+        display: none;
+    }
+
+    button[b-fw6dmgdaxu]
+    {
+        background-color: transparent;
+        padding: 0;
+        margin: 0;
+        font-size: inherit;
+    }
+}
+
 @keyframes out-of-time-animation-b-fw6dmgdaxu
 {
     0%
@@ -974,14 +990,15 @@ a[b-1rmw6w1p0a]
 ul[b-pqz7fqjo3b]
 {
     display: flex;
-    flex-wrap: wrap;
     row-gap: 1em;
     column-gap: 1em;
 }
 
 li[b-pqz7fqjo3b]
 {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
     padding: 20px;
     border-radius: 10px;
     text-align: center;

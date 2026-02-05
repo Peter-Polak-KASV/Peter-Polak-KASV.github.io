@@ -6,7 +6,7 @@
     <base target="_blank"/>
 
     <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
-    <link href="_framework/dotnet.h94eb0gqcz.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-64eg6vq+VnmyV14PUUd319Hh0+aOSLXEaq78+kT3K1I="/>
+    <link href="_framework/dotnet.5yk2ktmq21.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-jd56RZT++U8mB6P0apkUNiRQzpcIQlzPQawXCNPFfRA="/>
     <link rel="stylesheet" href="_content/KASV.Blazor.Library/css/shared-theme.css"/>
     <link rel="stylesheet" href="_content/KASV.Blazor.Library/css/dark-theme.css"/>
     <link rel="stylesheet" href="_content/KASV.Blazor.Library/css/Material Symbols Sharp.css"/>
@@ -22,7 +22,7 @@
     <script type="importmap">{
   "imports": {
     "./_framework/blazor.webassembly.js": "./_framework/blazor.webassembly.66stpp682q.js",
-    "./_framework/dotnet.js": "./_framework/dotnet.h94eb0gqcz.js",
+    "./_framework/dotnet.js": "./_framework/dotnet.5yk2ktmq21.js",
     "./_framework/dotnet.native.js": "./_framework/dotnet.native.sh4hma5oom.js",
     "./_framework/dotnet.runtime.js": "./_framework/dotnet.runtime.2tx45g8lli.js"
   },
@@ -30,8 +30,8 @@
   "integrity": {
     "./_framework/blazor.webassembly.66stpp682q.js": "sha256-3lCWrko3zwspV40aQhs2S/IMkRSarnHRKIdkHhuXIBA=",
     "./_framework/blazor.webassembly.js": "sha256-3lCWrko3zwspV40aQhs2S/IMkRSarnHRKIdkHhuXIBA=",
-    "./_framework/dotnet.h94eb0gqcz.js": "sha256-64eg6vq+VnmyV14PUUd319Hh0+aOSLXEaq78+kT3K1I=",
-    "./_framework/dotnet.js": "sha256-64eg6vq+VnmyV14PUUd319Hh0+aOSLXEaq78+kT3K1I=",
+    "./_framework/dotnet.5yk2ktmq21.js": "sha256-jd56RZT++U8mB6P0apkUNiRQzpcIQlzPQawXCNPFfRA=",
+    "./_framework/dotnet.js": "sha256-jd56RZT++U8mB6P0apkUNiRQzpcIQlzPQawXCNPFfRA=",
     "./_framework/dotnet.native.js": "sha256-AL9reynwu3wdsdpaFWn2Ro5lMiMOTpF6OP8lE/G/4y8=",
     "./_framework/dotnet.native.sh4hma5oom.js": "sha256-AL9reynwu3wdsdpaFWn2Ro5lMiMOTpF6OP8lE/G/4y8=",
     "./_framework/dotnet.runtime.2tx45g8lli.js": "sha256-2lZh9yO0fnzm3Xt7yV+Kox3DH3nK7L8hDhm84VT1xco=",
@@ -100,7 +100,7 @@
                 <input id="Surname" name="Surname" type="text" placeholder="Smith" required onfocus="this.select();" b-crie6yk1wf /></div></div>
 
         <div class="row" b-crie6yk1wf><div class="input-container" data-tooltip="You need to be at least 18 years old to apply." b-crie6yk1wf><label for="DateOfBirth" b-crie6yk1wf>Date of birth</label>
-                <input id="DateOfBirth" required name="DateOfBirth" type="date" max="2008-02-04" value="2008-02-04" b-crie6yk1wf /></div>
+                <input id="DateOfBirth" required name="DateOfBirth" type="date" max="2008-02-05" value="2008-02-05" b-crie6yk1wf /></div>
             <div class="input-container" b-crie6yk1wf><label for="CityOfBirth" b-crie6yk1wf>City of birth</label>
                 <input id="CityOfBirth" name="CityOfBirth" type="text" placeholder="Ko&#x161;ice" required onfocus="this.select();" b-crie6yk1wf /></div></div>
 
@@ -110,9 +110,9 @@
                 <input id="Citizenship" name="Citizenship" type="text" placeholder="Slovak Republic" required onfocus="this.select();" b-crie6yk1wf /></div></div>
 
         <div class="input-container" b-crie6yk1wf><label for="NationalIdentificationNumberDate" b-crie6yk1wf>National Identification Number</label>
-            <input id="NationalIdentificationNumberDate" name="NationalIdentificationNumberDate" type="text" placeholder="900130" required onfocus="this.select();" pattern="[0-9]{2}([05][1-9]|[26][0-2])(0[1-9]|[12][0-9]|3[0-1])" b-crie6yk1wf />
+            <input id="NationalIdentificationNumberDate" name="NationalIdentificationNumberDate" type="text" placeholder="900130" required onfocus="this.select();" pattern="[0-9]{2}([05][1-9]|[26][0-2])(0[1-9]|[12][0-9]|3[0-1])" maxlength="6" b-crie6yk1wf />
             /
-            <input id="NationalIdentificationNumberId" name="NationalIdentificationNumberId" type="text" placeholder="0001" required onfocus="this.select();" pattern="[0-9]{3-4}" b-crie6yk1wf /></div></section>
+            <input id="NationalIdentificationNumberId" name="NationalIdentificationNumberId" type="text" placeholder="0001" required onfocus="this.select();" maxlength="4" pattern="[0-9]{3-4}" b-crie6yk1wf /></div></section>
 
     <hr b-crie6yk1wf>
 
@@ -146,15 +146,12 @@
         <div class="input-container" b-crie6yk1wf><label for="School" b-crie6yk1wf>Current or previous school</label>
             <input id="School" name="School" type="text" placeholder="S&#xFA;kromn&#xE9; gymn&#xE1;zium Dnepersk&#xE1; 1, 040 12, Ko&#x161;ice, Slovakia" required onfocus="this.select();" b-crie6yk1wf /></div></section>
 
-    <section id="submit-section" b-crie6yk1wf><button id="print-button" onclick="window.print()" b-crie6yk1wf><span class="material-symbols-sharp" style="   " b-gla9kip7yt>save</span>
-            /
-            <span class="material-symbols-sharp" style="   " b-gla9kip7yt>print</span></button>
-        <div b-crie6yk1wf>Or</div>
-        <div b-crie6yk1wf><input type="checkbox" b-crie6yk1wf>
-            <label b-crie6yk1wf>I agree to processing and storing of my personal information for the purposes of ...</label>
+    
+    <button type="submit" disabled style="display: none" aria-hidden="true" b-crie6yk1wf></button>
 
-            <button id="send-button" type="submit" formaction="/admission-form/print" disabled b-crie6yk1wf><span class="material-symbols-sharp" style="   " b-gla9kip7yt>send</span>
-                Send</button></div></section></form>
+    <section id="submit-section" b-crie6yk1wf><button id="print-button" type="submit" onclick="window.print()" b-crie6yk1wf><span class="material-symbols-sharp" style="   " b-gla9kip7yt>save</span>
+            /
+            <span class="material-symbols-sharp" style="   " b-gla9kip7yt>print</span></button></section></form>
 
 <div id="form" class="print-only" b-34g9gbs104><header b-34g9gbs104><h1 b-34g9gbs104>PRIHLÁŠKA</h1>
         <h2 b-34g9gbs104>na pomaturitné a nadstavbové štúdium na strednej škole</h2></header>
@@ -163,7 +160,7 @@
             <table b-34g9gbs104><tbody b-34g9gbs104><tr b-34g9gbs104><th b-34g9gbs104>Meno a priezvisko:</th>
                         <td colspan="3" b-34g9gbs104> </td></tr>
                     <tr b-34g9gbs104><th b-34g9gbs104> Dátum a miesto narodenia:</th>
-                        <td colspan="3" b-34g9gbs104>2008-02-04, </td></tr>
+                        <td colspan="3" b-34g9gbs104>2008-02-05, </td></tr>
                     <tr b-34g9gbs104><th b-34g9gbs104> Rodné číslo:</th>
                         <td colspan="3" b-34g9gbs104>/</td></tr>
                     <tr b-34g9gbs104><th b-34g9gbs104>Národnosť:</th>
@@ -202,9 +199,7 @@
         <div b-34g9gbs104>* Čo sa nehodí prečiarknite!</div></main>
 
     <footer b-34g9gbs104><div b-34g9gbs104>PRIHLÁŠKU ODOŠLITE POŠTOU NA ADRESU ŠKOLY, ALEBO EMAILOM NA</div>
-        <div b-34g9gbs104><a href="mailto:info@kosickaakademia.sk" b-34g9gbs104>info@kosickaakademia.sk</a></div></footer></div>
-
-<button class="no-print" b-crie6yk1wf>[DEBUG] Fill</button></main>
+        <div b-34g9gbs104><a href="mailto:info@kosickaakademia.sk" b-34g9gbs104>info@kosickaakademia.sk</a></div></footer></div></main>
 
 </div>
 <!-- %%-PRERENDERING-END-%% -->
